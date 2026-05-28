@@ -212,11 +212,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "BEAVRS:1",
@@ -234,11 +232,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "BEAVRS:1",
@@ -256,11 +252,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "BEAVRS:1",
@@ -278,11 +272,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "BEAVRS:1",
@@ -300,11 +292,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "BEAVRS:1",
@@ -322,11 +312,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "BEAVRS:1",
@@ -344,11 +332,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "BEAVRS:1",
@@ -366,11 +352,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "BEAVRS:1",
@@ -388,11 +372,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "CoherentElastic:1",
@@ -410,11 +392,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "CoherentElastic:1",
@@ -432,11 +412,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "CoherentElastic:1",
@@ -454,11 +432,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "CoherentElastic:1",
@@ -476,11 +452,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "CoherentElastic:1",
@@ -498,11 +472,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "CoherentElastic:1",
@@ -520,11 +492,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "CoherentElastic:1",
@@ -542,11 +512,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "CoherentElastic:1",
@@ -564,11 +532,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "Compton:1",
@@ -586,11 +552,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "Compton:1",
@@ -608,11 +572,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "Compton:1",
@@ -630,11 +592,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "Compton:1",
@@ -652,11 +612,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "Compton:1",
@@ -674,11 +632,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "Compton:1",
@@ -696,11 +652,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "Compton:1",
@@ -718,11 +672,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "Compton:1",
@@ -740,11 +692,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "CoupledNeutronPhoton:1",
@@ -762,11 +712,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "CoupledNeutronPhoton:1",
@@ -784,11 +732,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "CoupledNeutronPhoton:1",
@@ -806,11 +752,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "CoupledNeutronPhoton:1",
@@ -828,11 +772,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "CoupledNeutronPhoton:1",
@@ -850,11 +792,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "CoupledNeutronPhoton:1",
@@ -872,11 +812,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "CoupledNeutronPhoton:1",
@@ -894,11 +832,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "CoupledNeutronPhoton:1",
@@ -916,11 +852,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "CrossSectionLookups:1",
@@ -938,11 +872,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "CrossSectionLookups:1",
@@ -960,11 +892,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "CrossSectionLookups:1",
@@ -982,11 +912,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "CrossSectionLookups:1",
@@ -1004,11 +932,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "CrossSectionLookups:1",
@@ -1026,11 +952,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "CrossSectionLookups:1",
@@ -1048,11 +972,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "CrossSectionLookups:1",
@@ -1070,11 +992,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "CrossSectionLookups:1",
@@ -1092,11 +1012,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "CylindricalMeshSource:1",
@@ -1114,11 +1032,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "CylindricalMeshSource:1",
@@ -1136,11 +1052,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "CylindricalMeshSource:1",
@@ -1158,11 +1072,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "CylindricalMeshSource:1",
@@ -1180,11 +1092,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "CylindricalMeshSource:1",
@@ -1202,11 +1112,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "CylindricalMeshSource:1",
@@ -1224,11 +1132,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "CylindricalMeshSource:1",
@@ -1246,11 +1152,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "CylindricalMeshSource:1",
@@ -1268,11 +1172,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "DepletionTallies:1",
@@ -1290,11 +1192,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "DepletionTallies:1",
@@ -1312,11 +1212,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "DepletionTallies:1",
@@ -1334,11 +1232,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "DepletionTallies:1",
@@ -1356,11 +1252,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "DepletionTallies:1",
@@ -1378,11 +1272,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "DepletionTallies:1",
@@ -1400,11 +1292,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "DepletionTallies:1",
@@ -1422,11 +1312,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "DepletionTallies:1",
@@ -1444,11 +1332,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "HexLattices:1",
@@ -1466,11 +1352,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "HexLattices:1",
@@ -1488,11 +1372,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "HexLattices:1",
@@ -1510,11 +1392,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "HexLattices:1",
@@ -1532,11 +1412,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "HexLattices:1",
@@ -1554,11 +1432,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "HexLattices:1",
@@ -1576,11 +1452,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "HexLattices:1",
@@ -1598,11 +1472,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "HexLattices:1",
@@ -1620,11 +1492,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "IncoherentInelastic:1",
@@ -1642,11 +1512,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "IncoherentInelastic:1",
@@ -1664,11 +1532,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "IncoherentInelastic:1",
@@ -1686,11 +1552,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "IncoherentInelastic:1",
@@ -1708,11 +1572,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "IncoherentInelastic:1",
@@ -1730,11 +1592,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "IncoherentInelastic:1",
@@ -1752,11 +1612,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "IncoherentInelastic:1",
@@ -1774,11 +1632,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "IncoherentInelastic:1",
@@ -1796,11 +1652,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "InfiniteMediumEigenvalue:1",
@@ -1818,11 +1672,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "InfiniteMediumEigenvalue:1",
@@ -1840,11 +1692,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "InfiniteMediumEigenvalue:1",
@@ -1862,11 +1712,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "InfiniteMediumEigenvalue:1",
@@ -1884,11 +1732,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "InfiniteMediumEigenvalue:1",
@@ -1906,11 +1752,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "InfiniteMediumEigenvalue:1",
@@ -1928,11 +1772,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "InfiniteMediumEigenvalue:1",
@@ -1950,11 +1792,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "InfiniteMediumEigenvalue:1",
@@ -1972,11 +1812,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "Jetson2dMcAnalog:1",
@@ -1994,11 +1832,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "Jetson2dMcAnalog:1",
@@ -2016,11 +1852,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "Jetson2dMcAnalog:1",
@@ -2038,11 +1872,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "Jetson2dMcAnalog:1",
@@ -2060,11 +1892,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "Jetson2dMcAnalog:1",
@@ -2082,11 +1912,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "Jetson2dMcAnalog:1",
@@ -2104,11 +1932,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "Jetson2dMcAnalog:1",
@@ -2126,11 +1952,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "Jetson2dMcAnalog:1",
@@ -2148,11 +1972,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "Jetson2dMcAnalog:1",
@@ -2170,11 +1992,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "Jetson2dMcAnalog:1",
@@ -2192,11 +2012,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "Jetson2dMcAnalog:1",
@@ -2214,11 +2032,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "Jetson2dMcAnalog:1",
@@ -2236,11 +2052,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "Jetson2dMcWw:1",
@@ -2258,11 +2072,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "Jetson2dMcWw:1",
@@ -2280,11 +2092,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "Jetson2dMcWw:1",
@@ -2302,11 +2112,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "Jetson2dMcWw:1",
@@ -2324,11 +2132,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "Jetson2dMcWw:1",
@@ -2346,11 +2152,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "Jetson2dMcWw:1",
@@ -2368,11 +2172,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "Jetson2dMcWw:1",
@@ -2390,11 +2192,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "Jetson2dMcWw:1",
@@ -2412,11 +2212,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "Jetson2dMcWw:1",
@@ -2434,11 +2232,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "Jetson2dMcWw:1",
@@ -2456,11 +2252,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "Jetson2dMcWw:1",
@@ -2478,11 +2272,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "Jetson2dMcWw:1",
@@ -2500,7 +2292,6 @@
         "params": [
             [
                 "(1, None)",
-                "(2, None)",
                 "(4, None)"
             ]
         ],
@@ -2519,7 +2310,6 @@
         "params": [
             [
                 "(1, None)",
-                "(2, None)",
                 "(4, None)"
             ]
         ],
@@ -2538,7 +2328,6 @@
         "params": [
             [
                 "(1, None)",
-                "(2, None)",
                 "(4, None)"
             ]
         ],
@@ -2557,11 +2346,7 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)"
             ]
         ],
         "setup_cache_key": "Jetson2dRandomRay:1",
@@ -2579,11 +2364,7 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)"
             ]
         ],
         "setup_cache_key": "Jetson2dRandomRay:1",
@@ -2601,11 +2382,7 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)"
             ]
         ],
         "setup_cache_key": "Jetson2dRandomRay:1",
@@ -2623,11 +2400,7 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)"
             ]
         ],
         "setup_cache_key": "Jetson2dRandomRay:1",
@@ -2645,11 +2418,7 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)"
             ]
         ],
         "setup_cache_key": "Jetson2dRandomRay:1",
@@ -2667,11 +2436,7 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)"
             ]
         ],
         "setup_cache_key": "Jetson2dRandomRay:1",
@@ -2689,11 +2454,7 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)"
             ]
         ],
         "setup_cache_key": "Jetson2dRandomRay:1",
@@ -2711,11 +2472,7 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)"
             ]
         ],
         "setup_cache_key": "Jetson2dRandomRay:1",
@@ -2733,11 +2490,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "ManyCells:1",
@@ -2755,11 +2510,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "ManyCells:1",
@@ -2777,11 +2530,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "ManyCells:1",
@@ -2799,11 +2550,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "ManyCells:1",
@@ -2821,11 +2570,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "ManyCells:1",
@@ -2843,11 +2590,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "ManyCells:1",
@@ -2865,11 +2610,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "ManyCells:1",
@@ -2887,11 +2630,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "ManyCells:1",
@@ -2909,11 +2650,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "MeshDomainRejection:1",
@@ -2931,11 +2670,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "MeshDomainRejection:1",
@@ -2953,11 +2690,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "MeshDomainRejection:1",
@@ -2975,11 +2710,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "MeshDomainRejection:1",
@@ -2997,11 +2730,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "MeshDomainRejection:1",
@@ -3019,11 +2750,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "MeshDomainRejection:1",
@@ -3041,11 +2770,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "MeshDomainRejection:1",
@@ -3063,11 +2790,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "MeshDomainRejection:1",
@@ -3085,11 +2810,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "NestedCylinders:1",
@@ -3107,11 +2830,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "NestedCylinders:1",
@@ -3129,11 +2850,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "NestedCylinders:1",
@@ -3151,11 +2870,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "NestedCylinders:1",
@@ -3173,11 +2890,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "NestedCylinders:1",
@@ -3195,11 +2910,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "NestedCylinders:1",
@@ -3217,11 +2930,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "NestedCylinders:1",
@@ -3239,11 +2950,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "NestedCylinders:1",
@@ -3261,11 +2970,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "NestedSpheres:1",
@@ -3283,11 +2990,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "NestedSpheres:1",
@@ -3305,11 +3010,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "NestedSpheres:1",
@@ -3327,11 +3030,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "NestedSpheres:1",
@@ -3349,11 +3050,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "NestedSpheres:1",
@@ -3371,11 +3070,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "NestedSpheres:1",
@@ -3393,11 +3090,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "NestedSpheres:1",
@@ -3415,11 +3110,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "NestedSpheres:1",
@@ -3437,11 +3130,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "NestedTorii:1",
@@ -3459,11 +3150,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "NestedTorii:1",
@@ -3481,11 +3170,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "NestedTorii:1",
@@ -3503,11 +3190,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "NestedTorii:1",
@@ -3525,11 +3210,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "NestedTorii:1",
@@ -3547,11 +3230,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "NestedTorii:1",
@@ -3569,11 +3250,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "NestedTorii:1",
@@ -3591,11 +3270,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "NestedTorii:1",
@@ -3817,11 +3494,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "PairProduction:1",
@@ -3839,11 +3514,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "PairProduction:1",
@@ -3861,11 +3534,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "PairProduction:1",
@@ -3883,11 +3554,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "PairProduction:1",
@@ -3905,11 +3574,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "PairProduction:1",
@@ -3927,11 +3594,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "PairProduction:1",
@@ -3949,11 +3614,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "PairProduction:1",
@@ -3971,11 +3634,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "PairProduction:1",
@@ -3993,11 +3654,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "Photoelectric:1",
@@ -4015,11 +3674,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "Photoelectric:1",
@@ -4037,11 +3694,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "Photoelectric:1",
@@ -4059,11 +3714,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "Photoelectric:1",
@@ -4081,11 +3734,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "Photoelectric:1",
@@ -4103,11 +3754,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "Photoelectric:1",
@@ -4125,11 +3774,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "Photoelectric:1",
@@ -4147,11 +3794,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "Photoelectric:1",
@@ -4169,11 +3814,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "PhotoelectricDeexcitation:1",
@@ -4191,11 +3834,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "PhotoelectricDeexcitation:1",
@@ -4213,11 +3854,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "PhotoelectricDeexcitation:1",
@@ -4235,11 +3874,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "PhotoelectricDeexcitation:1",
@@ -4257,11 +3894,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "PhotoelectricDeexcitation:1",
@@ -4279,11 +3914,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "PhotoelectricDeexcitation:1",
@@ -4301,11 +3934,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "PhotoelectricDeexcitation:1",
@@ -4323,11 +3954,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "PhotoelectricDeexcitation:1",
@@ -4345,11 +3974,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "PointCloud:1",
@@ -4367,11 +3994,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "PointCloud:1",
@@ -4389,11 +4014,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "PointCloud:1",
@@ -4411,11 +4034,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "PointCloud:1",
@@ -4433,11 +4054,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "PointCloud:1",
@@ -4455,11 +4074,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "PointCloud:1",
@@ -4477,11 +4094,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "PointCloud:1",
@@ -4499,11 +4114,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "PointCloud:1",
@@ -4521,11 +4134,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "RectLattices:1",
@@ -4543,11 +4154,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "RectLattices:1",
@@ -4565,11 +4174,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "RectLattices:1",
@@ -4587,11 +4194,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "RectLattices:1",
@@ -4609,11 +4214,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "RectLattices:1",
@@ -4631,11 +4234,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "RectLattices:1",
@@ -4653,11 +4254,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "RectLattices:1",
@@ -4675,11 +4274,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "RectLattices:1",
@@ -4697,11 +4294,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "RegularMeshSource:1",
@@ -4719,11 +4314,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "RegularMeshSource:1",
@@ -4741,11 +4334,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "RegularMeshSource:1",
@@ -4763,11 +4354,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "RegularMeshSource:1",
@@ -4785,11 +4374,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "RegularMeshSource:1",
@@ -4807,11 +4394,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "RegularMeshSource:1",
@@ -4829,11 +4414,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "RegularMeshSource:1",
@@ -4851,11 +4434,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "RegularMeshSource:1",
@@ -4873,11 +4454,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "SimpleTokamakCSG:1",
@@ -4895,11 +4474,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "SimpleTokamakCSG:1",
@@ -4917,11 +4494,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "SimpleTokamakCSG:1",
@@ -4939,11 +4514,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "SimpleTokamakCSG:1",
@@ -4961,11 +4534,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "SimpleTokamakCSG:1",
@@ -4983,11 +4554,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "SimpleTokamakCSG:1",
@@ -5005,11 +4574,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "SimpleTokamakCSG:1",
@@ -5027,11 +4594,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "SimpleTokamakCSG:1",
@@ -5049,11 +4614,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "SimpleTokamakDAGMC:1",
@@ -5071,11 +4634,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "SimpleTokamakDAGMC:1",
@@ -5093,11 +4654,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "SimpleTokamakDAGMC:1",
@@ -5115,11 +4674,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "SimpleTokamakDAGMC:1",
@@ -5137,11 +4694,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "SimpleTokamakDAGMC:1",
@@ -5159,11 +4714,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "SimpleTokamakDAGMC:1",
@@ -5181,11 +4734,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "SimpleTokamakDAGMC:1",
@@ -5203,11 +4754,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "SimpleTokamakDAGMC:1",
@@ -5225,11 +4774,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "SphericalMeshSource:1",
@@ -5247,11 +4794,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "SphericalMeshSource:1",
@@ -5269,11 +4814,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "SphericalMeshSource:1",
@@ -5291,11 +4834,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "SphericalMeshSource:1",
@@ -5313,11 +4854,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "SphericalMeshSource:1",
@@ -5335,11 +4874,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "SphericalMeshSource:1",
@@ -5357,11 +4894,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "SphericalMeshSource:1",
@@ -5379,11 +4914,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "SphericalMeshSource:1",
@@ -5401,11 +4934,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "ThickTargetBremsstrahlung:1",
@@ -5423,11 +4954,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "ThickTargetBremsstrahlung:1",
@@ -5445,11 +4974,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "ThickTargetBremsstrahlung:1",
@@ -5467,11 +4994,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "ThickTargetBremsstrahlung:1",
@@ -5489,11 +5014,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "ThickTargetBremsstrahlung:1",
@@ -5511,11 +5034,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "ThickTargetBremsstrahlung:1",
@@ -5533,11 +5054,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "ThickTargetBremsstrahlung:1",
@@ -5555,11 +5074,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "ThickTargetBremsstrahlung:1",
@@ -5577,11 +5094,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "URR:1",
@@ -5599,11 +5114,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "URR:1",
@@ -5621,11 +5134,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "URR:1",
@@ -5643,11 +5154,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "URR:1",
@@ -5665,11 +5174,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "URR:1",
@@ -5687,11 +5194,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "URR:1",
@@ -5709,11 +5214,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "URR:1",
@@ -5731,11 +5234,9 @@
         "params": [
             [
                 "(1, None)",
-                "(12, None)",
-                "(48, None)",
-                "(1, 48)",
-                "(4, 12)",
-                "(12, 4)"
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
             ]
         ],
         "setup_cache_key": "URR:1",
