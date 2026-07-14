@@ -84,23 +84,6 @@
         "unit": "unit",
         "version": "c916bf4a5efaa532bd86847912254b5a24916b86f1e79604238a650888bee43f"
     },
-    "benchmarks.ActivationMultipleMat.track_user_cpu": {
-        "code": "class _BaseBenchmark:\n    def track_user_cpu(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        return _nan(result.time_usage.user_seconds)\n\nclass ActivationMultipleMat:\n    def setup_cache(self, *_params):\n        # Cache stub for: ActivationMultipleMat\n        return _impl(self, *_params)",
-        "name": "benchmarks.ActivationMultipleMat.track_user_cpu",
-        "param_names": [
-            "(threads, mpi_procs)"
-        ],
-        "params": [
-            [
-                "(1, None)"
-            ]
-        ],
-        "setup_cache_key": "ActivationMultipleMat:1",
-        "timeout": 600,
-        "type": "track",
-        "unit": "seconds",
-        "version": "8ce85794715fce98778ae45fd85cae6cbc128da1f6d26a73c8ae6fc4817af02b"
-    },
     "benchmarks.ActivationSingleMat.track_core_sec_per_mat_timestep": {
         "code": "class _BaseBenchmark:\n    def track(self, results, config):\n        result = results[_param_key(*config)]\n        return _nan(result.custom_metrics.get(metric_name))\n\nclass ActivationSingleMat:\n    def setup_cache(self, *_params):\n        # Cache stub for: ActivationSingleMat\n        return _impl(self, *_params)",
         "name": "benchmarks.ActivationSingleMat.track_core_sec_per_mat_timestep",
@@ -185,23 +168,6 @@
         "type": "track",
         "unit": "unit",
         "version": "9e49e84216f8a7859de7531d65e1b9ff75b131a639198a0e6398ca7bd88b25f7"
-    },
-    "benchmarks.ActivationSingleMat.track_user_cpu": {
-        "code": "class _BaseBenchmark:\n    def track_user_cpu(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        return _nan(result.time_usage.user_seconds)\n\nclass ActivationSingleMat:\n    def setup_cache(self, *_params):\n        # Cache stub for: ActivationSingleMat\n        return _impl(self, *_params)",
-        "name": "benchmarks.ActivationSingleMat.track_user_cpu",
-        "param_names": [
-            "(threads, mpi_procs)"
-        ],
-        "params": [
-            [
-                "(1, None)"
-            ]
-        ],
-        "setup_cache_key": "ActivationSingleMat:1",
-        "timeout": 600,
-        "type": "track",
-        "unit": "seconds",
-        "version": "a68dd94d2048617912e939f4a1682a780c2e0c879841b12f177484a88dd80d29"
     },
     "benchmarks.BEAVRS.track_calc_rate_active": {
         "code": "class _OpenMCModelBenchmark:\n    def track_calc_rate_active(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        stats = result.timing_stats\n        return _nan(stats.calc_rate_active if stats else None)\n\nclass BEAVRS:\n    def setup_cache(self, *_params):\n        # Cache stub for: BEAVRS\n        return _impl(self, *_params)",
@@ -343,26 +309,6 @@
         "unit": "seconds",
         "version": "7bee5af659dbdd7e3c6881f992ba1cb9b9a00c5002ee5c9c57643893f1c11412"
     },
-    "benchmarks.BEAVRS.track_user_cpu": {
-        "code": "class _BaseBenchmark:\n    def track_user_cpu(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        return _nan(result.time_usage.user_seconds)\n\nclass BEAVRS:\n    def setup_cache(self, *_params):\n        # Cache stub for: BEAVRS\n        return _impl(self, *_params)",
-        "name": "benchmarks.BEAVRS.track_user_cpu",
-        "param_names": [
-            "(threads, mpi_procs)"
-        ],
-        "params": [
-            [
-                "(1, None)",
-                "(4, None)",
-                "(1, 4)",
-                "(2, 2)"
-            ]
-        ],
-        "setup_cache_key": "BEAVRS:1",
-        "timeout": 600,
-        "type": "track",
-        "unit": "seconds",
-        "version": "4915a569d54676fae4e589c80d5d0b696e9e994093aecc13960185b456060c82"
-    },
     "benchmarks.CoherentElastic.track_calc_rate_active": {
         "code": "class _OpenMCModelBenchmark:\n    def track_calc_rate_active(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        stats = result.timing_stats\n        return _nan(stats.calc_rate_active if stats else None)\n\nclass CoherentElastic:\n    def setup_cache(self, *_params):\n        # Cache stub for: CoherentElastic\n        return _impl(self, *_params)",
         "name": "benchmarks.CoherentElastic.track_calc_rate_active",
@@ -502,26 +448,6 @@
         "type": "track",
         "unit": "seconds",
         "version": "831732971997d262cbc7f779ce72d4160fb0314a2eead18f4288c9ab3dd445ad"
-    },
-    "benchmarks.CoherentElastic.track_user_cpu": {
-        "code": "class _BaseBenchmark:\n    def track_user_cpu(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        return _nan(result.time_usage.user_seconds)\n\nclass CoherentElastic:\n    def setup_cache(self, *_params):\n        # Cache stub for: CoherentElastic\n        return _impl(self, *_params)",
-        "name": "benchmarks.CoherentElastic.track_user_cpu",
-        "param_names": [
-            "(threads, mpi_procs)"
-        ],
-        "params": [
-            [
-                "(1, None)",
-                "(4, None)",
-                "(1, 4)",
-                "(2, 2)"
-            ]
-        ],
-        "setup_cache_key": "CoherentElastic:1",
-        "timeout": 600,
-        "type": "track",
-        "unit": "seconds",
-        "version": "350ec07001686f61bd43a384c1b06db0dd2892a8e8d647b3943061441d5e3608"
     },
     "benchmarks.Compton.track_calc_rate_active": {
         "code": "class _OpenMCModelBenchmark:\n    def track_calc_rate_active(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        stats = result.timing_stats\n        return _nan(stats.calc_rate_active if stats else None)\n\nclass Compton:\n    def setup_cache(self, *_params):\n        # Cache stub for: Compton\n        return _impl(self, *_params)",
@@ -663,26 +589,6 @@
         "unit": "seconds",
         "version": "44bcdbab11ecd03f560cae8de1807e13572363eaa923a89c016f75e69a78512e"
     },
-    "benchmarks.Compton.track_user_cpu": {
-        "code": "class _BaseBenchmark:\n    def track_user_cpu(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        return _nan(result.time_usage.user_seconds)\n\nclass Compton:\n    def setup_cache(self, *_params):\n        # Cache stub for: Compton\n        return _impl(self, *_params)",
-        "name": "benchmarks.Compton.track_user_cpu",
-        "param_names": [
-            "(threads, mpi_procs)"
-        ],
-        "params": [
-            [
-                "(1, None)",
-                "(4, None)",
-                "(1, 4)",
-                "(2, 2)"
-            ]
-        ],
-        "setup_cache_key": "Compton:1",
-        "timeout": 600,
-        "type": "track",
-        "unit": "seconds",
-        "version": "d358fa3b9962f0abfbb6a70a5833654e5c1e2e4807311a10ed663dd9884d9ba1"
-    },
     "benchmarks.CoupledNeutronPhoton.track_calc_rate_active": {
         "code": "class _OpenMCModelBenchmark:\n    def track_calc_rate_active(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        stats = result.timing_stats\n        return _nan(stats.calc_rate_active if stats else None)\n\nclass CoupledNeutronPhoton:\n    def setup_cache(self, *_params):\n        # Cache stub for: CoupledNeutronPhoton\n        return _impl(self, *_params)",
         "name": "benchmarks.CoupledNeutronPhoton.track_calc_rate_active",
@@ -822,26 +728,6 @@
         "type": "track",
         "unit": "seconds",
         "version": "93f3f00bc96af2e838c3e7e0afc2cdce5147db570bf3984ae50476174a7e1c04"
-    },
-    "benchmarks.CoupledNeutronPhoton.track_user_cpu": {
-        "code": "class _BaseBenchmark:\n    def track_user_cpu(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        return _nan(result.time_usage.user_seconds)\n\nclass CoupledNeutronPhoton:\n    def setup_cache(self, *_params):\n        # Cache stub for: CoupledNeutronPhoton\n        return _impl(self, *_params)",
-        "name": "benchmarks.CoupledNeutronPhoton.track_user_cpu",
-        "param_names": [
-            "(threads, mpi_procs)"
-        ],
-        "params": [
-            [
-                "(1, None)",
-                "(4, None)",
-                "(1, 4)",
-                "(2, 2)"
-            ]
-        ],
-        "setup_cache_key": "CoupledNeutronPhoton:1",
-        "timeout": 600,
-        "type": "track",
-        "unit": "seconds",
-        "version": "1b13ed9096313768c72f706cc593b6309a3727680de7ae1051893c586f8f3bf6"
     },
     "benchmarks.CrossSectionLookups.track_calc_rate_active": {
         "code": "class _OpenMCModelBenchmark:\n    def track_calc_rate_active(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        stats = result.timing_stats\n        return _nan(stats.calc_rate_active if stats else None)\n\nclass CrossSectionLookups:\n    def setup_cache(self, *_params):\n        # Cache stub for: CrossSectionLookups\n        return _impl(self, *_params)",
@@ -983,26 +869,6 @@
         "unit": "seconds",
         "version": "2ff5a5f1c7ffa30d27ee29955cc8aa5a0c5445de58ac14fca57c886d42c2c7bc"
     },
-    "benchmarks.CrossSectionLookups.track_user_cpu": {
-        "code": "class _BaseBenchmark:\n    def track_user_cpu(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        return _nan(result.time_usage.user_seconds)\n\nclass CrossSectionLookups:\n    def setup_cache(self, *_params):\n        # Cache stub for: CrossSectionLookups\n        return _impl(self, *_params)",
-        "name": "benchmarks.CrossSectionLookups.track_user_cpu",
-        "param_names": [
-            "(threads, mpi_procs)"
-        ],
-        "params": [
-            [
-                "(1, None)",
-                "(4, None)",
-                "(1, 4)",
-                "(2, 2)"
-            ]
-        ],
-        "setup_cache_key": "CrossSectionLookups:1",
-        "timeout": 600,
-        "type": "track",
-        "unit": "seconds",
-        "version": "724ae03cf22cba11e7f16d8b8987192a03302e4ad7725f2a7e4c200223bbddd3"
-    },
     "benchmarks.CylindricalMeshSource.track_calc_rate_active": {
         "code": "class _OpenMCModelBenchmark:\n    def track_calc_rate_active(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        stats = result.timing_stats\n        return _nan(stats.calc_rate_active if stats else None)\n\nclass CylindricalMeshSource:\n    def setup_cache(self, *_params):\n        # Cache stub for: CylindricalMeshSource\n        return _impl(self, *_params)",
         "name": "benchmarks.CylindricalMeshSource.track_calc_rate_active",
@@ -1142,26 +1008,6 @@
         "type": "track",
         "unit": "seconds",
         "version": "910cf05333ad5614eb5bf62ba59e3770eeb6856adbdd7dd38bfb2cde96791fa7"
-    },
-    "benchmarks.CylindricalMeshSource.track_user_cpu": {
-        "code": "class _BaseBenchmark:\n    def track_user_cpu(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        return _nan(result.time_usage.user_seconds)\n\nclass CylindricalMeshSource:\n    def setup_cache(self, *_params):\n        # Cache stub for: CylindricalMeshSource\n        return _impl(self, *_params)",
-        "name": "benchmarks.CylindricalMeshSource.track_user_cpu",
-        "param_names": [
-            "(threads, mpi_procs)"
-        ],
-        "params": [
-            [
-                "(1, None)",
-                "(4, None)",
-                "(1, 4)",
-                "(2, 2)"
-            ]
-        ],
-        "setup_cache_key": "CylindricalMeshSource:1",
-        "timeout": 600,
-        "type": "track",
-        "unit": "seconds",
-        "version": "2420ad20d549bfdfb10f7d2c48e8b7c0a1002cec4ae9b8db2c15d9838b7ef8ac"
     },
     "benchmarks.DepletionTallies.track_calc_rate_active": {
         "code": "class _OpenMCModelBenchmark:\n    def track_calc_rate_active(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        stats = result.timing_stats\n        return _nan(stats.calc_rate_active if stats else None)\n\nclass DepletionTallies:\n    def setup_cache(self, *_params):\n        # Cache stub for: DepletionTallies\n        return _impl(self, *_params)",
@@ -1303,26 +1149,6 @@
         "unit": "seconds",
         "version": "92f3cd5f8bf8274e98861f38c4521461594f5c8b7e57644dc4ec3c2ca8758f94"
     },
-    "benchmarks.DepletionTallies.track_user_cpu": {
-        "code": "class _BaseBenchmark:\n    def track_user_cpu(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        return _nan(result.time_usage.user_seconds)\n\nclass DepletionTallies:\n    def setup_cache(self, *_params):\n        # Cache stub for: DepletionTallies\n        return _impl(self, *_params)",
-        "name": "benchmarks.DepletionTallies.track_user_cpu",
-        "param_names": [
-            "(threads, mpi_procs)"
-        ],
-        "params": [
-            [
-                "(1, None)",
-                "(4, None)",
-                "(1, 4)",
-                "(2, 2)"
-            ]
-        ],
-        "setup_cache_key": "DepletionTallies:1",
-        "timeout": 600,
-        "type": "track",
-        "unit": "seconds",
-        "version": "0dac7dd45a7bf1bb7a3d1d86d9a36eea3a8de042316cbe23e265619895401e58"
-    },
     "benchmarks.HexLattices.track_calc_rate_active": {
         "code": "class _OpenMCModelBenchmark:\n    def track_calc_rate_active(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        stats = result.timing_stats\n        return _nan(stats.calc_rate_active if stats else None)\n\nclass HexLattices:\n    def setup_cache(self, *_params):\n        # Cache stub for: HexLattices\n        return _impl(self, *_params)",
         "name": "benchmarks.HexLattices.track_calc_rate_active",
@@ -1462,26 +1288,6 @@
         "type": "track",
         "unit": "seconds",
         "version": "d3b662fdd4dedb1e1fa09ee784f9a39399e0ecc4a1668332e8e52d14798aaaaa"
-    },
-    "benchmarks.HexLattices.track_user_cpu": {
-        "code": "class _BaseBenchmark:\n    def track_user_cpu(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        return _nan(result.time_usage.user_seconds)\n\nclass HexLattices:\n    def setup_cache(self, *_params):\n        # Cache stub for: HexLattices\n        return _impl(self, *_params)",
-        "name": "benchmarks.HexLattices.track_user_cpu",
-        "param_names": [
-            "(threads, mpi_procs)"
-        ],
-        "params": [
-            [
-                "(1, None)",
-                "(4, None)",
-                "(1, 4)",
-                "(2, 2)"
-            ]
-        ],
-        "setup_cache_key": "HexLattices:1",
-        "timeout": 600,
-        "type": "track",
-        "unit": "seconds",
-        "version": "d4bd62876fd7b660ff5b561d01229de72bb18223cde9e13cbf7f3ef713b2a1e0"
     },
     "benchmarks.IncoherentInelastic.track_calc_rate_active": {
         "code": "class _OpenMCModelBenchmark:\n    def track_calc_rate_active(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        stats = result.timing_stats\n        return _nan(stats.calc_rate_active if stats else None)\n\nclass IncoherentInelastic:\n    def setup_cache(self, *_params):\n        # Cache stub for: IncoherentInelastic\n        return _impl(self, *_params)",
@@ -1623,26 +1429,6 @@
         "unit": "seconds",
         "version": "65d38abd33c30d64793cb72be1ab2568856dddea9db643053f17995f3c781668"
     },
-    "benchmarks.IncoherentInelastic.track_user_cpu": {
-        "code": "class _BaseBenchmark:\n    def track_user_cpu(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        return _nan(result.time_usage.user_seconds)\n\nclass IncoherentInelastic:\n    def setup_cache(self, *_params):\n        # Cache stub for: IncoherentInelastic\n        return _impl(self, *_params)",
-        "name": "benchmarks.IncoherentInelastic.track_user_cpu",
-        "param_names": [
-            "(threads, mpi_procs)"
-        ],
-        "params": [
-            [
-                "(1, None)",
-                "(4, None)",
-                "(1, 4)",
-                "(2, 2)"
-            ]
-        ],
-        "setup_cache_key": "IncoherentInelastic:1",
-        "timeout": 600,
-        "type": "track",
-        "unit": "seconds",
-        "version": "ff4b638f88aa1e24d4f846b7385a670531a4aac83118729fa6146f7e8279d005"
-    },
     "benchmarks.InfiniteMediumEigenvalue.track_calc_rate_active": {
         "code": "class _OpenMCModelBenchmark:\n    def track_calc_rate_active(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        stats = result.timing_stats\n        return _nan(stats.calc_rate_active if stats else None)\n\nclass InfiniteMediumEigenvalue:\n    def setup_cache(self, *_params):\n        # Cache stub for: InfiniteMediumEigenvalue\n        return _impl(self, *_params)",
         "name": "benchmarks.InfiniteMediumEigenvalue.track_calc_rate_active",
@@ -1782,26 +1568,6 @@
         "type": "track",
         "unit": "seconds",
         "version": "eb35012d6db6c1ddf9824c0fcac9e469274731a92bba6b158673a0141986dbf7"
-    },
-    "benchmarks.InfiniteMediumEigenvalue.track_user_cpu": {
-        "code": "class _BaseBenchmark:\n    def track_user_cpu(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        return _nan(result.time_usage.user_seconds)\n\nclass InfiniteMediumEigenvalue:\n    def setup_cache(self, *_params):\n        # Cache stub for: InfiniteMediumEigenvalue\n        return _impl(self, *_params)",
-        "name": "benchmarks.InfiniteMediumEigenvalue.track_user_cpu",
-        "param_names": [
-            "(threads, mpi_procs)"
-        ],
-        "params": [
-            [
-                "(1, None)",
-                "(4, None)",
-                "(1, 4)",
-                "(2, 2)"
-            ]
-        ],
-        "setup_cache_key": "InfiniteMediumEigenvalue:1",
-        "timeout": 600,
-        "type": "track",
-        "unit": "seconds",
-        "version": "f0a0537c7152eeab5c19a34d2af28617bdd898ca430553cc0f81c7cbe36203e3"
     },
     "benchmarks.Jetson2dMcAnalog.track_avg_rel_error": {
         "code": "class _BaseBenchmark:\n    def track(self, results, config):\n        result = results[_param_key(*config)]\n        return _nan(result.custom_metrics.get(metric_name))\n\nclass Jetson2dMcAnalog:\n    def setup_cache(self, *_params):\n        # Cache stub for: Jetson2dMcAnalog\n        return _impl(self, *_params)",
@@ -2023,26 +1789,6 @@
         "unit": "seconds",
         "version": "406821696ee7091aeed583467294a778498cdaa0b0c5cebef98347840e775bac"
     },
-    "benchmarks.Jetson2dMcAnalog.track_user_cpu": {
-        "code": "class _BaseBenchmark:\n    def track_user_cpu(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        return _nan(result.time_usage.user_seconds)\n\nclass Jetson2dMcAnalog:\n    def setup_cache(self, *_params):\n        # Cache stub for: Jetson2dMcAnalog\n        return _impl(self, *_params)",
-        "name": "benchmarks.Jetson2dMcAnalog.track_user_cpu",
-        "param_names": [
-            "(threads, mpi_procs)"
-        ],
-        "params": [
-            [
-                "(1, None)",
-                "(4, None)",
-                "(1, 4)",
-                "(2, 2)"
-            ]
-        ],
-        "setup_cache_key": "Jetson2dMcAnalog:1",
-        "timeout": 600,
-        "type": "track",
-        "unit": "seconds",
-        "version": "300a2a2be1b6d34edf0a79c6e723e406cef1f457d126407e3ffd0cb632757524"
-    },
     "benchmarks.Jetson2dMcWw.track_avg_rel_error": {
         "code": "class _BaseBenchmark:\n    def track(self, results, config):\n        result = results[_param_key(*config)]\n        return _nan(result.custom_metrics.get(metric_name))\n\nclass Jetson2dMcWw:\n    def setup_cache(self, *_params):\n        # Cache stub for: Jetson2dMcWw\n        return _impl(self, *_params)",
         "name": "benchmarks.Jetson2dMcWw.track_avg_rel_error",
@@ -2263,26 +2009,6 @@
         "unit": "seconds",
         "version": "9bf1007e85d601ab7fb97247fa93679e23f8ac3143eff9958986b1bcfc60536a"
     },
-    "benchmarks.Jetson2dMcWw.track_user_cpu": {
-        "code": "class _BaseBenchmark:\n    def track_user_cpu(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        return _nan(result.time_usage.user_seconds)\n\nclass Jetson2dMcWw:\n    def setup_cache(self, *_params):\n        # Cache stub for: Jetson2dMcWw\n        return _impl(self, *_params)",
-        "name": "benchmarks.Jetson2dMcWw.track_user_cpu",
-        "param_names": [
-            "(threads, mpi_procs)"
-        ],
-        "params": [
-            [
-                "(1, None)",
-                "(4, None)",
-                "(1, 4)",
-                "(2, 2)"
-            ]
-        ],
-        "setup_cache_key": "Jetson2dMcWw:1",
-        "timeout": 600,
-        "type": "track",
-        "unit": "seconds",
-        "version": "b412ff8f09cda4da3884b251bb85bdb3e2266e87fb95def85ba9316729cd2100"
-    },
     "benchmarks.Jetson2dMgxs.track_elapsed_wall": {
         "code": "class _BaseBenchmark:\n    def track_elapsed_wall(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        return _nan(result.time_usage.elapsed_seconds)\n\nclass Jetson2dMgxs:\n    def setup_cache(self, *_params):\n        # Cache stub for: Jetson2dMgxs\n        return _impl(self, *_params)",
         "name": "benchmarks.Jetson2dMgxs.track_elapsed_wall",
@@ -2318,24 +2044,6 @@
         "type": "track",
         "unit": "KB",
         "version": "59fe67e78ae488511e1cc1588928df033de3b00133494478b54416e73dd4c2f3"
-    },
-    "benchmarks.Jetson2dMgxs.track_user_cpu": {
-        "code": "class _BaseBenchmark:\n    def track_user_cpu(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        return _nan(result.time_usage.user_seconds)\n\nclass Jetson2dMgxs:\n    def setup_cache(self, *_params):\n        # Cache stub for: Jetson2dMgxs\n        return _impl(self, *_params)",
-        "name": "benchmarks.Jetson2dMgxs.track_user_cpu",
-        "param_names": [
-            "(threads, mpi_procs)"
-        ],
-        "params": [
-            [
-                "(1, None)",
-                "(4, None)"
-            ]
-        ],
-        "setup_cache_key": "Jetson2dMgxs:1",
-        "timeout": 600,
-        "type": "track",
-        "unit": "seconds",
-        "version": "299943c03b739509b254cbee2321d2976e2ba114f07dd3655a3b7bb5727eb8c2"
     },
     "benchmarks.Jetson2dRandomRay.track_calc_rate_active": {
         "code": "class _OpenMCModelBenchmark:\n    def track_calc_rate_active(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        stats = result.timing_stats\n        return _nan(stats.calc_rate_active if stats else None)\n\nclass Jetson2dRandomRay:\n    def setup_cache(self, *_params):\n        # Cache stub for: Jetson2dRandomRay\n        return _impl(self, *_params)",
@@ -2462,24 +2170,6 @@
         "type": "track",
         "unit": "seconds",
         "version": "1f93ca0986bd284138640c6b3428d5a5494ee81ebafe517c760ad227845668e3"
-    },
-    "benchmarks.Jetson2dRandomRay.track_user_cpu": {
-        "code": "class _BaseBenchmark:\n    def track_user_cpu(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        return _nan(result.time_usage.user_seconds)\n\nclass Jetson2dRandomRay:\n    def setup_cache(self, *_params):\n        # Cache stub for: Jetson2dRandomRay\n        return _impl(self, *_params)",
-        "name": "benchmarks.Jetson2dRandomRay.track_user_cpu",
-        "param_names": [
-            "(threads, mpi_procs)"
-        ],
-        "params": [
-            [
-                "(1, None)",
-                "(4, None)"
-            ]
-        ],
-        "setup_cache_key": "Jetson2dRandomRay:1",
-        "timeout": 600,
-        "type": "track",
-        "unit": "seconds",
-        "version": "94ef6a1cffa75a7eccf9066bc6bb687eef3aa9270730d97c142ede446e7a90c6"
     },
     "benchmarks.ManyCells.track_calc_rate_active": {
         "code": "class _OpenMCModelBenchmark:\n    def track_calc_rate_active(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        stats = result.timing_stats\n        return _nan(stats.calc_rate_active if stats else None)\n\nclass ManyCells:\n    def setup_cache(self, *_params):\n        # Cache stub for: ManyCells\n        return _impl(self, *_params)",
@@ -2621,26 +2311,6 @@
         "unit": "seconds",
         "version": "8c53ca6489aaa8bae92f1a37b88e74794fe3483f860c8608fd9bad985d058ab1"
     },
-    "benchmarks.ManyCells.track_user_cpu": {
-        "code": "class _BaseBenchmark:\n    def track_user_cpu(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        return _nan(result.time_usage.user_seconds)\n\nclass ManyCells:\n    def setup_cache(self, *_params):\n        # Cache stub for: ManyCells\n        return _impl(self, *_params)",
-        "name": "benchmarks.ManyCells.track_user_cpu",
-        "param_names": [
-            "(threads, mpi_procs)"
-        ],
-        "params": [
-            [
-                "(1, None)",
-                "(4, None)",
-                "(1, 4)",
-                "(2, 2)"
-            ]
-        ],
-        "setup_cache_key": "ManyCells:1",
-        "timeout": 600,
-        "type": "track",
-        "unit": "seconds",
-        "version": "a93d0b24674839be3848a4dc76f9446f48b201de39326b0cc31e0405af3e3592"
-    },
     "benchmarks.MeshDomainRejection.track_calc_rate_active": {
         "code": "class _OpenMCModelBenchmark:\n    def track_calc_rate_active(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        stats = result.timing_stats\n        return _nan(stats.calc_rate_active if stats else None)\n\nclass MeshDomainRejection:\n    def setup_cache(self, *_params):\n        # Cache stub for: MeshDomainRejection\n        return _impl(self, *_params)",
         "name": "benchmarks.MeshDomainRejection.track_calc_rate_active",
@@ -2781,9 +2451,9 @@
         "unit": "seconds",
         "version": "974a1f4c21fd4b8ab873dbfbe417f3f3f1c4b5f6cafb696d36210dfd7c2e5806"
     },
-    "benchmarks.MeshDomainRejection.track_user_cpu": {
-        "code": "class _BaseBenchmark:\n    def track_user_cpu(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        return _nan(result.time_usage.user_seconds)\n\nclass MeshDomainRejection:\n    def setup_cache(self, *_params):\n        # Cache stub for: MeshDomainRejection\n        return _impl(self, *_params)",
-        "name": "benchmarks.MeshDomainRejection.track_user_cpu",
+    "benchmarks.MeshTallyCylindrical.track_calc_rate_active": {
+        "code": "class _OpenMCModelBenchmark:\n    def track_calc_rate_active(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        stats = result.timing_stats\n        return _nan(stats.calc_rate_active if stats else None)\n\nclass MeshTallyCylindrical:\n    def setup_cache(self, *_params):\n        # Cache stub for: MeshTallyCylindrical\n        return _impl(self, *_params)",
+        "name": "benchmarks.MeshTallyCylindrical.track_calc_rate_active",
         "param_names": [
             "(threads, mpi_procs)"
         ],
@@ -2795,11 +2465,551 @@
                 "(2, 2)"
             ]
         ],
-        "setup_cache_key": "MeshDomainRejection:1",
+        "setup_cache_key": "MeshTallyCylindrical:1",
+        "timeout": 600,
+        "type": "track",
+        "unit": "particles / second",
+        "version": "88394db5ac65f5c18177cff3f517990a96a254b94cc3c05abf35fa8c2106b77f"
+    },
+    "benchmarks.MeshTallyCylindrical.track_calc_rate_inactive": {
+        "code": "class _OpenMCModelBenchmark:\n    def track_calc_rate_inactive(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        stats = result.timing_stats\n        return _nan(stats.calc_rate_inactive if stats else None)\n\nclass MeshTallyCylindrical:\n    def setup_cache(self, *_params):\n        # Cache stub for: MeshTallyCylindrical\n        return _impl(self, *_params)",
+        "name": "benchmarks.MeshTallyCylindrical.track_calc_rate_inactive",
+        "param_names": [
+            "(threads, mpi_procs)"
+        ],
+        "params": [
+            [
+                "(1, None)",
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
+            ]
+        ],
+        "setup_cache_key": "MeshTallyCylindrical:1",
+        "timeout": 600,
+        "type": "track",
+        "unit": "particles / second",
+        "version": "a4c0aba8de632d372a2bca535abad46a12bf2b617a1008b52eb3f5b0f1b5208a"
+    },
+    "benchmarks.MeshTallyCylindrical.track_elapsed_wall": {
+        "code": "class _BaseBenchmark:\n    def track_elapsed_wall(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        return _nan(result.time_usage.elapsed_seconds)\n\nclass MeshTallyCylindrical:\n    def setup_cache(self, *_params):\n        # Cache stub for: MeshTallyCylindrical\n        return _impl(self, *_params)",
+        "name": "benchmarks.MeshTallyCylindrical.track_elapsed_wall",
+        "param_names": [
+            "(threads, mpi_procs)"
+        ],
+        "params": [
+            [
+                "(1, None)",
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
+            ]
+        ],
+        "setup_cache_key": "MeshTallyCylindrical:1",
         "timeout": 600,
         "type": "track",
         "unit": "seconds",
-        "version": "595284ca3c255b62a0f0b1739683bf0f457841cbaeddfa6e7321b3945a86d671"
+        "version": "db209ecaa8a31e0ef44be15bc606fa2dd1c137d0ee1fa0e7165c2a8cc61f0482"
+    },
+    "benchmarks.MeshTallyCylindrical.track_initialization_time": {
+        "code": "class _OpenMCModelBenchmark:\n    def track_initialization_time(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        stats = result.timing_stats\n        return _nan(stats.initialization if stats else None)\n\nclass MeshTallyCylindrical:\n    def setup_cache(self, *_params):\n        # Cache stub for: MeshTallyCylindrical\n        return _impl(self, *_params)",
+        "name": "benchmarks.MeshTallyCylindrical.track_initialization_time",
+        "param_names": [
+            "(threads, mpi_procs)"
+        ],
+        "params": [
+            [
+                "(1, None)",
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
+            ]
+        ],
+        "setup_cache_key": "MeshTallyCylindrical:1",
+        "timeout": 600,
+        "type": "track",
+        "unit": "seconds",
+        "version": "772c557b8694a00502be15d43d5ba3f411e09a93244cd0a7924a0d3cedafb530"
+    },
+    "benchmarks.MeshTallyCylindrical.track_max_rss_kb": {
+        "code": "class _BaseBenchmark:\n    def track_max_rss_kb(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        rss = result.time_usage.max_rss_kb\n        return float(rss) if rss is not None else _nan(None)\n\nclass MeshTallyCylindrical:\n    def setup_cache(self, *_params):\n        # Cache stub for: MeshTallyCylindrical\n        return _impl(self, *_params)",
+        "name": "benchmarks.MeshTallyCylindrical.track_max_rss_kb",
+        "param_names": [
+            "(threads, mpi_procs)"
+        ],
+        "params": [
+            [
+                "(1, None)",
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
+            ]
+        ],
+        "setup_cache_key": "MeshTallyCylindrical:1",
+        "timeout": 600,
+        "type": "track",
+        "unit": "KB",
+        "version": "e6fdb35967ae36217ffd09fa0109d73a47e5ceaedefa38e24733fe5a7a230d25"
+    },
+    "benchmarks.MeshTallyCylindrical.track_total_time_elapsed": {
+        "code": "class _OpenMCModelBenchmark:\n    def track_total_time_elapsed(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        stats = result.timing_stats\n        return _nan(stats.total_elapsed if stats else None)\n\nclass MeshTallyCylindrical:\n    def setup_cache(self, *_params):\n        # Cache stub for: MeshTallyCylindrical\n        return _impl(self, *_params)",
+        "name": "benchmarks.MeshTallyCylindrical.track_total_time_elapsed",
+        "param_names": [
+            "(threads, mpi_procs)"
+        ],
+        "params": [
+            [
+                "(1, None)",
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
+            ]
+        ],
+        "setup_cache_key": "MeshTallyCylindrical:1",
+        "timeout": 600,
+        "type": "track",
+        "unit": "seconds",
+        "version": "8fab23d9c5d1fccd3bb38f0bc6845b626d31c3b0a83a98da12de7359c91f2faf"
+    },
+    "benchmarks.MeshTallyCylindrical.track_transport_time": {
+        "code": "class _OpenMCModelBenchmark:\n    def track_transport_time(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        stats = result.timing_stats\n        return _nan(stats.transport if stats else None)\n\nclass MeshTallyCylindrical:\n    def setup_cache(self, *_params):\n        # Cache stub for: MeshTallyCylindrical\n        return _impl(self, *_params)",
+        "name": "benchmarks.MeshTallyCylindrical.track_transport_time",
+        "param_names": [
+            "(threads, mpi_procs)"
+        ],
+        "params": [
+            [
+                "(1, None)",
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
+            ]
+        ],
+        "setup_cache_key": "MeshTallyCylindrical:1",
+        "timeout": 600,
+        "type": "track",
+        "unit": "seconds",
+        "version": "96a9164aa7e9b5aeeabe779f3179ea138ce9d68fa1ef33a41a58cc9d006a2c51"
+    },
+    "benchmarks.MeshTallyRectilinear.track_calc_rate_active": {
+        "code": "class _OpenMCModelBenchmark:\n    def track_calc_rate_active(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        stats = result.timing_stats\n        return _nan(stats.calc_rate_active if stats else None)\n\nclass MeshTallyRectilinear:\n    def setup_cache(self, *_params):\n        # Cache stub for: MeshTallyRectilinear\n        return _impl(self, *_params)",
+        "name": "benchmarks.MeshTallyRectilinear.track_calc_rate_active",
+        "param_names": [
+            "(threads, mpi_procs)"
+        ],
+        "params": [
+            [
+                "(1, None)",
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
+            ]
+        ],
+        "setup_cache_key": "MeshTallyRectilinear:1",
+        "timeout": 600,
+        "type": "track",
+        "unit": "particles / second",
+        "version": "389767a8341ab75496bb7ef94e3f4a03a14c6e34603f0c71bf756ebb656a3536"
+    },
+    "benchmarks.MeshTallyRectilinear.track_calc_rate_inactive": {
+        "code": "class _OpenMCModelBenchmark:\n    def track_calc_rate_inactive(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        stats = result.timing_stats\n        return _nan(stats.calc_rate_inactive if stats else None)\n\nclass MeshTallyRectilinear:\n    def setup_cache(self, *_params):\n        # Cache stub for: MeshTallyRectilinear\n        return _impl(self, *_params)",
+        "name": "benchmarks.MeshTallyRectilinear.track_calc_rate_inactive",
+        "param_names": [
+            "(threads, mpi_procs)"
+        ],
+        "params": [
+            [
+                "(1, None)",
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
+            ]
+        ],
+        "setup_cache_key": "MeshTallyRectilinear:1",
+        "timeout": 600,
+        "type": "track",
+        "unit": "particles / second",
+        "version": "f5b78936d273dad36234e4b7d7068501ead7679b3ea920d7a0e60f23b22060b1"
+    },
+    "benchmarks.MeshTallyRectilinear.track_elapsed_wall": {
+        "code": "class _BaseBenchmark:\n    def track_elapsed_wall(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        return _nan(result.time_usage.elapsed_seconds)\n\nclass MeshTallyRectilinear:\n    def setup_cache(self, *_params):\n        # Cache stub for: MeshTallyRectilinear\n        return _impl(self, *_params)",
+        "name": "benchmarks.MeshTallyRectilinear.track_elapsed_wall",
+        "param_names": [
+            "(threads, mpi_procs)"
+        ],
+        "params": [
+            [
+                "(1, None)",
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
+            ]
+        ],
+        "setup_cache_key": "MeshTallyRectilinear:1",
+        "timeout": 600,
+        "type": "track",
+        "unit": "seconds",
+        "version": "531ff4ad9d0a39bed0b8c8f6c68b87dc592ba263c9ffe4d852c99b163193fa7d"
+    },
+    "benchmarks.MeshTallyRectilinear.track_initialization_time": {
+        "code": "class _OpenMCModelBenchmark:\n    def track_initialization_time(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        stats = result.timing_stats\n        return _nan(stats.initialization if stats else None)\n\nclass MeshTallyRectilinear:\n    def setup_cache(self, *_params):\n        # Cache stub for: MeshTallyRectilinear\n        return _impl(self, *_params)",
+        "name": "benchmarks.MeshTallyRectilinear.track_initialization_time",
+        "param_names": [
+            "(threads, mpi_procs)"
+        ],
+        "params": [
+            [
+                "(1, None)",
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
+            ]
+        ],
+        "setup_cache_key": "MeshTallyRectilinear:1",
+        "timeout": 600,
+        "type": "track",
+        "unit": "seconds",
+        "version": "2e7f2059b24e26b147d1b6785196dd843bb1d205ab065769f042d86a948744a1"
+    },
+    "benchmarks.MeshTallyRectilinear.track_max_rss_kb": {
+        "code": "class _BaseBenchmark:\n    def track_max_rss_kb(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        rss = result.time_usage.max_rss_kb\n        return float(rss) if rss is not None else _nan(None)\n\nclass MeshTallyRectilinear:\n    def setup_cache(self, *_params):\n        # Cache stub for: MeshTallyRectilinear\n        return _impl(self, *_params)",
+        "name": "benchmarks.MeshTallyRectilinear.track_max_rss_kb",
+        "param_names": [
+            "(threads, mpi_procs)"
+        ],
+        "params": [
+            [
+                "(1, None)",
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
+            ]
+        ],
+        "setup_cache_key": "MeshTallyRectilinear:1",
+        "timeout": 600,
+        "type": "track",
+        "unit": "KB",
+        "version": "ba36735428fe02a712c21bbb11b1ad6477e2813df0e293532c64b252553fff83"
+    },
+    "benchmarks.MeshTallyRectilinear.track_total_time_elapsed": {
+        "code": "class _OpenMCModelBenchmark:\n    def track_total_time_elapsed(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        stats = result.timing_stats\n        return _nan(stats.total_elapsed if stats else None)\n\nclass MeshTallyRectilinear:\n    def setup_cache(self, *_params):\n        # Cache stub for: MeshTallyRectilinear\n        return _impl(self, *_params)",
+        "name": "benchmarks.MeshTallyRectilinear.track_total_time_elapsed",
+        "param_names": [
+            "(threads, mpi_procs)"
+        ],
+        "params": [
+            [
+                "(1, None)",
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
+            ]
+        ],
+        "setup_cache_key": "MeshTallyRectilinear:1",
+        "timeout": 600,
+        "type": "track",
+        "unit": "seconds",
+        "version": "486402508a90a178e2b7ed75a9afa435d81bb2a9b85a112c951b055c3547e5d7"
+    },
+    "benchmarks.MeshTallyRectilinear.track_transport_time": {
+        "code": "class _OpenMCModelBenchmark:\n    def track_transport_time(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        stats = result.timing_stats\n        return _nan(stats.transport if stats else None)\n\nclass MeshTallyRectilinear:\n    def setup_cache(self, *_params):\n        # Cache stub for: MeshTallyRectilinear\n        return _impl(self, *_params)",
+        "name": "benchmarks.MeshTallyRectilinear.track_transport_time",
+        "param_names": [
+            "(threads, mpi_procs)"
+        ],
+        "params": [
+            [
+                "(1, None)",
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
+            ]
+        ],
+        "setup_cache_key": "MeshTallyRectilinear:1",
+        "timeout": 600,
+        "type": "track",
+        "unit": "seconds",
+        "version": "6dba7867968c5aeb20f1c79e7d0f60d4b0647115ebb2ea25d6422725a97aa18b"
+    },
+    "benchmarks.MeshTallyRegular.track_calc_rate_active": {
+        "code": "class _OpenMCModelBenchmark:\n    def track_calc_rate_active(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        stats = result.timing_stats\n        return _nan(stats.calc_rate_active if stats else None)\n\nclass MeshTallyRegular:\n    def setup_cache(self, *_params):\n        # Cache stub for: MeshTallyRegular\n        return _impl(self, *_params)",
+        "name": "benchmarks.MeshTallyRegular.track_calc_rate_active",
+        "param_names": [
+            "(threads, mpi_procs)"
+        ],
+        "params": [
+            [
+                "(1, None)",
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
+            ]
+        ],
+        "setup_cache_key": "MeshTallyRegular:1",
+        "timeout": 600,
+        "type": "track",
+        "unit": "particles / second",
+        "version": "23703099b29ef2f346c6b6382155e37bf63e99b7d9f5bb1edfdb9e2c77cc2f61"
+    },
+    "benchmarks.MeshTallyRegular.track_calc_rate_inactive": {
+        "code": "class _OpenMCModelBenchmark:\n    def track_calc_rate_inactive(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        stats = result.timing_stats\n        return _nan(stats.calc_rate_inactive if stats else None)\n\nclass MeshTallyRegular:\n    def setup_cache(self, *_params):\n        # Cache stub for: MeshTallyRegular\n        return _impl(self, *_params)",
+        "name": "benchmarks.MeshTallyRegular.track_calc_rate_inactive",
+        "param_names": [
+            "(threads, mpi_procs)"
+        ],
+        "params": [
+            [
+                "(1, None)",
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
+            ]
+        ],
+        "setup_cache_key": "MeshTallyRegular:1",
+        "timeout": 600,
+        "type": "track",
+        "unit": "particles / second",
+        "version": "234cdde061ea3551e4f3e327c1afe4be6c83f607ef71a3cc77d82cbd33ab43e8"
+    },
+    "benchmarks.MeshTallyRegular.track_elapsed_wall": {
+        "code": "class _BaseBenchmark:\n    def track_elapsed_wall(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        return _nan(result.time_usage.elapsed_seconds)\n\nclass MeshTallyRegular:\n    def setup_cache(self, *_params):\n        # Cache stub for: MeshTallyRegular\n        return _impl(self, *_params)",
+        "name": "benchmarks.MeshTallyRegular.track_elapsed_wall",
+        "param_names": [
+            "(threads, mpi_procs)"
+        ],
+        "params": [
+            [
+                "(1, None)",
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
+            ]
+        ],
+        "setup_cache_key": "MeshTallyRegular:1",
+        "timeout": 600,
+        "type": "track",
+        "unit": "seconds",
+        "version": "df25a4f18ae79a6e6fae23c4d3098b8197170529a2f3c64635dcfacaf6e9ef52"
+    },
+    "benchmarks.MeshTallyRegular.track_initialization_time": {
+        "code": "class _OpenMCModelBenchmark:\n    def track_initialization_time(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        stats = result.timing_stats\n        return _nan(stats.initialization if stats else None)\n\nclass MeshTallyRegular:\n    def setup_cache(self, *_params):\n        # Cache stub for: MeshTallyRegular\n        return _impl(self, *_params)",
+        "name": "benchmarks.MeshTallyRegular.track_initialization_time",
+        "param_names": [
+            "(threads, mpi_procs)"
+        ],
+        "params": [
+            [
+                "(1, None)",
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
+            ]
+        ],
+        "setup_cache_key": "MeshTallyRegular:1",
+        "timeout": 600,
+        "type": "track",
+        "unit": "seconds",
+        "version": "a4686c36add25f9803a52d65bd9eed7bc51dd5434069119e4bae2c9413531f70"
+    },
+    "benchmarks.MeshTallyRegular.track_max_rss_kb": {
+        "code": "class _BaseBenchmark:\n    def track_max_rss_kb(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        rss = result.time_usage.max_rss_kb\n        return float(rss) if rss is not None else _nan(None)\n\nclass MeshTallyRegular:\n    def setup_cache(self, *_params):\n        # Cache stub for: MeshTallyRegular\n        return _impl(self, *_params)",
+        "name": "benchmarks.MeshTallyRegular.track_max_rss_kb",
+        "param_names": [
+            "(threads, mpi_procs)"
+        ],
+        "params": [
+            [
+                "(1, None)",
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
+            ]
+        ],
+        "setup_cache_key": "MeshTallyRegular:1",
+        "timeout": 600,
+        "type": "track",
+        "unit": "KB",
+        "version": "02e89e0a03431ef94307e32c496d15c44257ffde9d0f6841e5ca182455075e8d"
+    },
+    "benchmarks.MeshTallyRegular.track_total_time_elapsed": {
+        "code": "class _OpenMCModelBenchmark:\n    def track_total_time_elapsed(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        stats = result.timing_stats\n        return _nan(stats.total_elapsed if stats else None)\n\nclass MeshTallyRegular:\n    def setup_cache(self, *_params):\n        # Cache stub for: MeshTallyRegular\n        return _impl(self, *_params)",
+        "name": "benchmarks.MeshTallyRegular.track_total_time_elapsed",
+        "param_names": [
+            "(threads, mpi_procs)"
+        ],
+        "params": [
+            [
+                "(1, None)",
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
+            ]
+        ],
+        "setup_cache_key": "MeshTallyRegular:1",
+        "timeout": 600,
+        "type": "track",
+        "unit": "seconds",
+        "version": "c5cad8b1662f45a152c90ddd619d62c7cd043ada11cd1737ca610a61e5da7e82"
+    },
+    "benchmarks.MeshTallyRegular.track_transport_time": {
+        "code": "class _OpenMCModelBenchmark:\n    def track_transport_time(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        stats = result.timing_stats\n        return _nan(stats.transport if stats else None)\n\nclass MeshTallyRegular:\n    def setup_cache(self, *_params):\n        # Cache stub for: MeshTallyRegular\n        return _impl(self, *_params)",
+        "name": "benchmarks.MeshTallyRegular.track_transport_time",
+        "param_names": [
+            "(threads, mpi_procs)"
+        ],
+        "params": [
+            [
+                "(1, None)",
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
+            ]
+        ],
+        "setup_cache_key": "MeshTallyRegular:1",
+        "timeout": 600,
+        "type": "track",
+        "unit": "seconds",
+        "version": "90bfe00854fd0a817f16391543311d410e16aa922236d21ee214c961d1869fe8"
+    },
+    "benchmarks.MeshTallySpherical.track_calc_rate_active": {
+        "code": "class _OpenMCModelBenchmark:\n    def track_calc_rate_active(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        stats = result.timing_stats\n        return _nan(stats.calc_rate_active if stats else None)\n\nclass MeshTallySpherical:\n    def setup_cache(self, *_params):\n        # Cache stub for: MeshTallySpherical\n        return _impl(self, *_params)",
+        "name": "benchmarks.MeshTallySpherical.track_calc_rate_active",
+        "param_names": [
+            "(threads, mpi_procs)"
+        ],
+        "params": [
+            [
+                "(1, None)",
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
+            ]
+        ],
+        "setup_cache_key": "MeshTallySpherical:1",
+        "timeout": 600,
+        "type": "track",
+        "unit": "particles / second",
+        "version": "e4af4b367407896396db6e844945f413ded9a5facd337f92ff14dd8f141d0979"
+    },
+    "benchmarks.MeshTallySpherical.track_calc_rate_inactive": {
+        "code": "class _OpenMCModelBenchmark:\n    def track_calc_rate_inactive(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        stats = result.timing_stats\n        return _nan(stats.calc_rate_inactive if stats else None)\n\nclass MeshTallySpherical:\n    def setup_cache(self, *_params):\n        # Cache stub for: MeshTallySpherical\n        return _impl(self, *_params)",
+        "name": "benchmarks.MeshTallySpherical.track_calc_rate_inactive",
+        "param_names": [
+            "(threads, mpi_procs)"
+        ],
+        "params": [
+            [
+                "(1, None)",
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
+            ]
+        ],
+        "setup_cache_key": "MeshTallySpherical:1",
+        "timeout": 600,
+        "type": "track",
+        "unit": "particles / second",
+        "version": "c2e444d1e89ccdc5438f4cd0ce3b5f40782001ff15a1fb99d41cc4458b4c5d01"
+    },
+    "benchmarks.MeshTallySpherical.track_elapsed_wall": {
+        "code": "class _BaseBenchmark:\n    def track_elapsed_wall(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        return _nan(result.time_usage.elapsed_seconds)\n\nclass MeshTallySpherical:\n    def setup_cache(self, *_params):\n        # Cache stub for: MeshTallySpherical\n        return _impl(self, *_params)",
+        "name": "benchmarks.MeshTallySpherical.track_elapsed_wall",
+        "param_names": [
+            "(threads, mpi_procs)"
+        ],
+        "params": [
+            [
+                "(1, None)",
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
+            ]
+        ],
+        "setup_cache_key": "MeshTallySpherical:1",
+        "timeout": 600,
+        "type": "track",
+        "unit": "seconds",
+        "version": "fa159d83690eaeeb867d03b077a6900d0420fa8d312681a2cdd285cf38404ee5"
+    },
+    "benchmarks.MeshTallySpherical.track_initialization_time": {
+        "code": "class _OpenMCModelBenchmark:\n    def track_initialization_time(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        stats = result.timing_stats\n        return _nan(stats.initialization if stats else None)\n\nclass MeshTallySpherical:\n    def setup_cache(self, *_params):\n        # Cache stub for: MeshTallySpherical\n        return _impl(self, *_params)",
+        "name": "benchmarks.MeshTallySpherical.track_initialization_time",
+        "param_names": [
+            "(threads, mpi_procs)"
+        ],
+        "params": [
+            [
+                "(1, None)",
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
+            ]
+        ],
+        "setup_cache_key": "MeshTallySpherical:1",
+        "timeout": 600,
+        "type": "track",
+        "unit": "seconds",
+        "version": "5997036c7a3442be1784e2bd48a49ac50a9a915e61777ce6fb3e18576b07d791"
+    },
+    "benchmarks.MeshTallySpherical.track_max_rss_kb": {
+        "code": "class _BaseBenchmark:\n    def track_max_rss_kb(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        rss = result.time_usage.max_rss_kb\n        return float(rss) if rss is not None else _nan(None)\n\nclass MeshTallySpherical:\n    def setup_cache(self, *_params):\n        # Cache stub for: MeshTallySpherical\n        return _impl(self, *_params)",
+        "name": "benchmarks.MeshTallySpherical.track_max_rss_kb",
+        "param_names": [
+            "(threads, mpi_procs)"
+        ],
+        "params": [
+            [
+                "(1, None)",
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
+            ]
+        ],
+        "setup_cache_key": "MeshTallySpherical:1",
+        "timeout": 600,
+        "type": "track",
+        "unit": "KB",
+        "version": "0eb3db675275802768cb3645385be5a2856c9c52f004ddc3b1e213c7a3fcaed0"
+    },
+    "benchmarks.MeshTallySpherical.track_total_time_elapsed": {
+        "code": "class _OpenMCModelBenchmark:\n    def track_total_time_elapsed(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        stats = result.timing_stats\n        return _nan(stats.total_elapsed if stats else None)\n\nclass MeshTallySpherical:\n    def setup_cache(self, *_params):\n        # Cache stub for: MeshTallySpherical\n        return _impl(self, *_params)",
+        "name": "benchmarks.MeshTallySpherical.track_total_time_elapsed",
+        "param_names": [
+            "(threads, mpi_procs)"
+        ],
+        "params": [
+            [
+                "(1, None)",
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
+            ]
+        ],
+        "setup_cache_key": "MeshTallySpherical:1",
+        "timeout": 600,
+        "type": "track",
+        "unit": "seconds",
+        "version": "046aac58daed2e3c4344836edbb8a7029b78d1214dfa480f2e1a501356827284"
+    },
+    "benchmarks.MeshTallySpherical.track_transport_time": {
+        "code": "class _OpenMCModelBenchmark:\n    def track_transport_time(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        stats = result.timing_stats\n        return _nan(stats.transport if stats else None)\n\nclass MeshTallySpherical:\n    def setup_cache(self, *_params):\n        # Cache stub for: MeshTallySpherical\n        return _impl(self, *_params)",
+        "name": "benchmarks.MeshTallySpherical.track_transport_time",
+        "param_names": [
+            "(threads, mpi_procs)"
+        ],
+        "params": [
+            [
+                "(1, None)",
+                "(4, None)",
+                "(1, 4)",
+                "(2, 2)"
+            ]
+        ],
+        "setup_cache_key": "MeshTallySpherical:1",
+        "timeout": 600,
+        "type": "track",
+        "unit": "seconds",
+        "version": "a2918fd7a7193ac58ac1f9ba6dd848520d66f7fe1ca9134e0089418d38ea6764"
     },
     "benchmarks.NestedCylinders.track_calc_rate_active": {
         "code": "class _OpenMCModelBenchmark:\n    def track_calc_rate_active(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        stats = result.timing_stats\n        return _nan(stats.calc_rate_active if stats else None)\n\nclass NestedCylinders:\n    def setup_cache(self, *_params):\n        # Cache stub for: NestedCylinders\n        return _impl(self, *_params)",
@@ -2941,26 +3151,6 @@
         "unit": "seconds",
         "version": "78a3f14fae7f885ef27eaafeb169d1125651a9e035eb458bd49c27e7f89fda1e"
     },
-    "benchmarks.NestedCylinders.track_user_cpu": {
-        "code": "class _BaseBenchmark:\n    def track_user_cpu(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        return _nan(result.time_usage.user_seconds)\n\nclass NestedCylinders:\n    def setup_cache(self, *_params):\n        # Cache stub for: NestedCylinders\n        return _impl(self, *_params)",
-        "name": "benchmarks.NestedCylinders.track_user_cpu",
-        "param_names": [
-            "(threads, mpi_procs)"
-        ],
-        "params": [
-            [
-                "(1, None)",
-                "(4, None)",
-                "(1, 4)",
-                "(2, 2)"
-            ]
-        ],
-        "setup_cache_key": "NestedCylinders:1",
-        "timeout": 600,
-        "type": "track",
-        "unit": "seconds",
-        "version": "54b28df5c7f361cf09979c0509f14d6908e7e51ee82da075bc7b4d0e3b9d3d15"
-    },
     "benchmarks.NestedSpheres.track_calc_rate_active": {
         "code": "class _OpenMCModelBenchmark:\n    def track_calc_rate_active(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        stats = result.timing_stats\n        return _nan(stats.calc_rate_active if stats else None)\n\nclass NestedSpheres:\n    def setup_cache(self, *_params):\n        # Cache stub for: NestedSpheres\n        return _impl(self, *_params)",
         "name": "benchmarks.NestedSpheres.track_calc_rate_active",
@@ -3100,26 +3290,6 @@
         "type": "track",
         "unit": "seconds",
         "version": "2aec8db639a83f7501b2c10e25e39d8af7202ce72fbe78929b369d99d73d4771"
-    },
-    "benchmarks.NestedSpheres.track_user_cpu": {
-        "code": "class _BaseBenchmark:\n    def track_user_cpu(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        return _nan(result.time_usage.user_seconds)\n\nclass NestedSpheres:\n    def setup_cache(self, *_params):\n        # Cache stub for: NestedSpheres\n        return _impl(self, *_params)",
-        "name": "benchmarks.NestedSpheres.track_user_cpu",
-        "param_names": [
-            "(threads, mpi_procs)"
-        ],
-        "params": [
-            [
-                "(1, None)",
-                "(4, None)",
-                "(1, 4)",
-                "(2, 2)"
-            ]
-        ],
-        "setup_cache_key": "NestedSpheres:1",
-        "timeout": 600,
-        "type": "track",
-        "unit": "seconds",
-        "version": "af027ac735f91c6e1099ca87016bdfac71334520957f406906eb965bda8f0fd8"
     },
     "benchmarks.NestedTorii.track_calc_rate_active": {
         "code": "class _OpenMCModelBenchmark:\n    def track_calc_rate_active(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        stats = result.timing_stats\n        return _nan(stats.calc_rate_active if stats else None)\n\nclass NestedTorii:\n    def setup_cache(self, *_params):\n        # Cache stub for: NestedTorii\n        return _impl(self, *_params)",
@@ -3261,26 +3431,6 @@
         "unit": "seconds",
         "version": "5762e509774d16f189cfd4f09dc9798697c6ca0808d825a17023a60ea35e163e"
     },
-    "benchmarks.NestedTorii.track_user_cpu": {
-        "code": "class _BaseBenchmark:\n    def track_user_cpu(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        return _nan(result.time_usage.user_seconds)\n\nclass NestedTorii:\n    def setup_cache(self, *_params):\n        # Cache stub for: NestedTorii\n        return _impl(self, *_params)",
-        "name": "benchmarks.NestedTorii.track_user_cpu",
-        "param_names": [
-            "(threads, mpi_procs)"
-        ],
-        "params": [
-            [
-                "(1, None)",
-                "(4, None)",
-                "(1, 4)",
-                "(2, 2)"
-            ]
-        ],
-        "setup_cache_key": "NestedTorii:1",
-        "timeout": 600,
-        "type": "track",
-        "unit": "seconds",
-        "version": "32fdc15d230dcb2f98e0354f442fb60166ec95b95e63237100276b92202dd271"
-    },
     "benchmarks.PackSpheresCylinder.track_elapsed_wall": {
         "code": "class _BaseBenchmark:\n    def track_elapsed_wall(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        return _nan(result.time_usage.elapsed_seconds)\n\nclass PackSpheresCylinder:\n    def setup_cache(self, *_params):\n        # Cache stub for: PackSpheresCylinder\n        return _impl(self, *_params)",
         "name": "benchmarks.PackSpheresCylinder.track_elapsed_wall",
@@ -3314,23 +3464,6 @@
         "type": "track",
         "unit": "KB",
         "version": "eab5794e70cbcf67cc080cf73a2ad8e115d2e86d86e229ff087aed9a808ca32b"
-    },
-    "benchmarks.PackSpheresCylinder.track_user_cpu": {
-        "code": "class _BaseBenchmark:\n    def track_user_cpu(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        return _nan(result.time_usage.user_seconds)\n\nclass PackSpheresCylinder:\n    def setup_cache(self, *_params):\n        # Cache stub for: PackSpheresCylinder\n        return _impl(self, *_params)",
-        "name": "benchmarks.PackSpheresCylinder.track_user_cpu",
-        "param_names": [
-            "(threads, mpi_procs)"
-        ],
-        "params": [
-            [
-                "(1, None)"
-            ]
-        ],
-        "setup_cache_key": "PackSpheresCylinder:1",
-        "timeout": 600,
-        "type": "track",
-        "unit": "seconds",
-        "version": "34711083b0e1d8af7cbc6f0c5e58631cae3341dc61094613d88c5865e63fbbab"
     },
     "benchmarks.PackSpheresRectangularPrism.track_elapsed_wall": {
         "code": "class _BaseBenchmark:\n    def track_elapsed_wall(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        return _nan(result.time_usage.elapsed_seconds)\n\nclass PackSpheresRectangularPrism:\n    def setup_cache(self, *_params):\n        # Cache stub for: PackSpheresRectangularPrism\n        return _impl(self, *_params)",
@@ -3366,23 +3499,6 @@
         "unit": "KB",
         "version": "8e0297fd2d5d569502f1e53d49fc1a22f361d66b7c4e48c29ca48e1cb414e741"
     },
-    "benchmarks.PackSpheresRectangularPrism.track_user_cpu": {
-        "code": "class _BaseBenchmark:\n    def track_user_cpu(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        return _nan(result.time_usage.user_seconds)\n\nclass PackSpheresRectangularPrism:\n    def setup_cache(self, *_params):\n        # Cache stub for: PackSpheresRectangularPrism\n        return _impl(self, *_params)",
-        "name": "benchmarks.PackSpheresRectangularPrism.track_user_cpu",
-        "param_names": [
-            "(threads, mpi_procs)"
-        ],
-        "params": [
-            [
-                "(1, None)"
-            ]
-        ],
-        "setup_cache_key": "PackSpheresRectangularPrism:1",
-        "timeout": 600,
-        "type": "track",
-        "unit": "seconds",
-        "version": "cc449afc5d73b90dc040fa7a87d1274be9756da0914865338623334cca8ee2f7"
-    },
     "benchmarks.PackSpheresSphere.track_elapsed_wall": {
         "code": "class _BaseBenchmark:\n    def track_elapsed_wall(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        return _nan(result.time_usage.elapsed_seconds)\n\nclass PackSpheresSphere:\n    def setup_cache(self, *_params):\n        # Cache stub for: PackSpheresSphere\n        return _impl(self, *_params)",
         "name": "benchmarks.PackSpheresSphere.track_elapsed_wall",
@@ -3417,23 +3533,6 @@
         "unit": "KB",
         "version": "429c956701de93ec76c06d23f8adaccea62e109e77205d45934dac3ad5d7e5bb"
     },
-    "benchmarks.PackSpheresSphere.track_user_cpu": {
-        "code": "class _BaseBenchmark:\n    def track_user_cpu(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        return _nan(result.time_usage.user_seconds)\n\nclass PackSpheresSphere:\n    def setup_cache(self, *_params):\n        # Cache stub for: PackSpheresSphere\n        return _impl(self, *_params)",
-        "name": "benchmarks.PackSpheresSphere.track_user_cpu",
-        "param_names": [
-            "(threads, mpi_procs)"
-        ],
-        "params": [
-            [
-                "(1, None)"
-            ]
-        ],
-        "setup_cache_key": "PackSpheresSphere:1",
-        "timeout": 600,
-        "type": "track",
-        "unit": "seconds",
-        "version": "02e8e55edd969eea402155aaa04038303eb6b9b276a782c652154db2a9086184"
-    },
     "benchmarks.PackSpheresSphericalShell.track_elapsed_wall": {
         "code": "class _BaseBenchmark:\n    def track_elapsed_wall(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        return _nan(result.time_usage.elapsed_seconds)\n\nclass PackSpheresSphericalShell:\n    def setup_cache(self, *_params):\n        # Cache stub for: PackSpheresSphericalShell\n        return _impl(self, *_params)",
         "name": "benchmarks.PackSpheresSphericalShell.track_elapsed_wall",
@@ -3467,23 +3566,6 @@
         "type": "track",
         "unit": "KB",
         "version": "7fcfd99b27f5942c775a86974670dbaddf4af201227ce863ad90194b64834fca"
-    },
-    "benchmarks.PackSpheresSphericalShell.track_user_cpu": {
-        "code": "class _BaseBenchmark:\n    def track_user_cpu(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        return _nan(result.time_usage.user_seconds)\n\nclass PackSpheresSphericalShell:\n    def setup_cache(self, *_params):\n        # Cache stub for: PackSpheresSphericalShell\n        return _impl(self, *_params)",
-        "name": "benchmarks.PackSpheresSphericalShell.track_user_cpu",
-        "param_names": [
-            "(threads, mpi_procs)"
-        ],
-        "params": [
-            [
-                "(1, None)"
-            ]
-        ],
-        "setup_cache_key": "PackSpheresSphericalShell:1",
-        "timeout": 600,
-        "type": "track",
-        "unit": "seconds",
-        "version": "d9d8ce1a0d8b3b5ca45bb4c5fe79a96996eee049cf2bacce970433b662da09b8"
     },
     "benchmarks.PairProduction.track_calc_rate_active": {
         "code": "class _OpenMCModelBenchmark:\n    def track_calc_rate_active(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        stats = result.timing_stats\n        return _nan(stats.calc_rate_active if stats else None)\n\nclass PairProduction:\n    def setup_cache(self, *_params):\n        # Cache stub for: PairProduction\n        return _impl(self, *_params)",
@@ -3625,26 +3707,6 @@
         "unit": "seconds",
         "version": "dc5d712e6651ad4e7039afa4e9094cffaabbb243f7d83343d07bfccd625cd76d"
     },
-    "benchmarks.PairProduction.track_user_cpu": {
-        "code": "class _BaseBenchmark:\n    def track_user_cpu(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        return _nan(result.time_usage.user_seconds)\n\nclass PairProduction:\n    def setup_cache(self, *_params):\n        # Cache stub for: PairProduction\n        return _impl(self, *_params)",
-        "name": "benchmarks.PairProduction.track_user_cpu",
-        "param_names": [
-            "(threads, mpi_procs)"
-        ],
-        "params": [
-            [
-                "(1, None)",
-                "(4, None)",
-                "(1, 4)",
-                "(2, 2)"
-            ]
-        ],
-        "setup_cache_key": "PairProduction:1",
-        "timeout": 600,
-        "type": "track",
-        "unit": "seconds",
-        "version": "cf9befe4c446839f400b8752d3e5ff4c7516a7daddfdd80b09af545b58c1de9e"
-    },
     "benchmarks.Photoelectric.track_calc_rate_active": {
         "code": "class _OpenMCModelBenchmark:\n    def track_calc_rate_active(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        stats = result.timing_stats\n        return _nan(stats.calc_rate_active if stats else None)\n\nclass Photoelectric:\n    def setup_cache(self, *_params):\n        # Cache stub for: Photoelectric\n        return _impl(self, *_params)",
         "name": "benchmarks.Photoelectric.track_calc_rate_active",
@@ -3784,26 +3846,6 @@
         "type": "track",
         "unit": "seconds",
         "version": "a855a140fae33dff99136d548d77a7e97cb947d0e68f62510422d21ab5db2e5c"
-    },
-    "benchmarks.Photoelectric.track_user_cpu": {
-        "code": "class _BaseBenchmark:\n    def track_user_cpu(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        return _nan(result.time_usage.user_seconds)\n\nclass Photoelectric:\n    def setup_cache(self, *_params):\n        # Cache stub for: Photoelectric\n        return _impl(self, *_params)",
-        "name": "benchmarks.Photoelectric.track_user_cpu",
-        "param_names": [
-            "(threads, mpi_procs)"
-        ],
-        "params": [
-            [
-                "(1, None)",
-                "(4, None)",
-                "(1, 4)",
-                "(2, 2)"
-            ]
-        ],
-        "setup_cache_key": "Photoelectric:1",
-        "timeout": 600,
-        "type": "track",
-        "unit": "seconds",
-        "version": "deb4745d4026df132b543d05ed57ad3d5fc3b187075fea03d01b2ab15832cc89"
     },
     "benchmarks.PhotoelectricDeexcitation.track_calc_rate_active": {
         "code": "class _OpenMCModelBenchmark:\n    def track_calc_rate_active(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        stats = result.timing_stats\n        return _nan(stats.calc_rate_active if stats else None)\n\nclass PhotoelectricDeexcitation:\n    def setup_cache(self, *_params):\n        # Cache stub for: PhotoelectricDeexcitation\n        return _impl(self, *_params)",
@@ -3945,26 +3987,6 @@
         "unit": "seconds",
         "version": "0ba3e1ee07752bd8e7b529d148621716a75d4b8cc1017ae46c2e715fa0802364"
     },
-    "benchmarks.PhotoelectricDeexcitation.track_user_cpu": {
-        "code": "class _BaseBenchmark:\n    def track_user_cpu(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        return _nan(result.time_usage.user_seconds)\n\nclass PhotoelectricDeexcitation:\n    def setup_cache(self, *_params):\n        # Cache stub for: PhotoelectricDeexcitation\n        return _impl(self, *_params)",
-        "name": "benchmarks.PhotoelectricDeexcitation.track_user_cpu",
-        "param_names": [
-            "(threads, mpi_procs)"
-        ],
-        "params": [
-            [
-                "(1, None)",
-                "(4, None)",
-                "(1, 4)",
-                "(2, 2)"
-            ]
-        ],
-        "setup_cache_key": "PhotoelectricDeexcitation:1",
-        "timeout": 600,
-        "type": "track",
-        "unit": "seconds",
-        "version": "3c8a5e59fd99b850ba02506ee6200ba89f7a48f85b9b7f06b26555d8fc2a5a81"
-    },
     "benchmarks.PointCloud.track_calc_rate_active": {
         "code": "class _OpenMCModelBenchmark:\n    def track_calc_rate_active(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        stats = result.timing_stats\n        return _nan(stats.calc_rate_active if stats else None)\n\nclass PointCloud:\n    def setup_cache(self, *_params):\n        # Cache stub for: PointCloud\n        return _impl(self, *_params)",
         "name": "benchmarks.PointCloud.track_calc_rate_active",
@@ -4104,26 +4126,6 @@
         "type": "track",
         "unit": "seconds",
         "version": "11b6ac81333ba83f0857beceb3f113fe4fca634e9152d4427e61d4ae3fe3d6a8"
-    },
-    "benchmarks.PointCloud.track_user_cpu": {
-        "code": "class _BaseBenchmark:\n    def track_user_cpu(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        return _nan(result.time_usage.user_seconds)\n\nclass PointCloud:\n    def setup_cache(self, *_params):\n        # Cache stub for: PointCloud\n        return _impl(self, *_params)",
-        "name": "benchmarks.PointCloud.track_user_cpu",
-        "param_names": [
-            "(threads, mpi_procs)"
-        ],
-        "params": [
-            [
-                "(1, None)",
-                "(4, None)",
-                "(1, 4)",
-                "(2, 2)"
-            ]
-        ],
-        "setup_cache_key": "PointCloud:1",
-        "timeout": 600,
-        "type": "track",
-        "unit": "seconds",
-        "version": "fd6a0e4f8de671d74a3f02165c1d87c5160f3766475fec65219f8302ede4cb60"
     },
     "benchmarks.RectLattices.track_calc_rate_active": {
         "code": "class _OpenMCModelBenchmark:\n    def track_calc_rate_active(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        stats = result.timing_stats\n        return _nan(stats.calc_rate_active if stats else None)\n\nclass RectLattices:\n    def setup_cache(self, *_params):\n        # Cache stub for: RectLattices\n        return _impl(self, *_params)",
@@ -4265,26 +4267,6 @@
         "unit": "seconds",
         "version": "3c12e83f3ff7add505d773d780cd443d8e673f2066a57224ac505979b1bb072d"
     },
-    "benchmarks.RectLattices.track_user_cpu": {
-        "code": "class _BaseBenchmark:\n    def track_user_cpu(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        return _nan(result.time_usage.user_seconds)\n\nclass RectLattices:\n    def setup_cache(self, *_params):\n        # Cache stub for: RectLattices\n        return _impl(self, *_params)",
-        "name": "benchmarks.RectLattices.track_user_cpu",
-        "param_names": [
-            "(threads, mpi_procs)"
-        ],
-        "params": [
-            [
-                "(1, None)",
-                "(4, None)",
-                "(1, 4)",
-                "(2, 2)"
-            ]
-        ],
-        "setup_cache_key": "RectLattices:1",
-        "timeout": 600,
-        "type": "track",
-        "unit": "seconds",
-        "version": "ada65f8d48de22291aa019a959ae44a268cdcb9ecc0ff4696e1979bb927f647e"
-    },
     "benchmarks.RegularMeshSource.track_calc_rate_active": {
         "code": "class _OpenMCModelBenchmark:\n    def track_calc_rate_active(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        stats = result.timing_stats\n        return _nan(stats.calc_rate_active if stats else None)\n\nclass RegularMeshSource:\n    def setup_cache(self, *_params):\n        # Cache stub for: RegularMeshSource\n        return _impl(self, *_params)",
         "name": "benchmarks.RegularMeshSource.track_calc_rate_active",
@@ -4424,26 +4406,6 @@
         "type": "track",
         "unit": "seconds",
         "version": "68495045f3356e7f611353cdfb1eeec482be1e11fdb7e0c7b4a1b3a07a27c659"
-    },
-    "benchmarks.RegularMeshSource.track_user_cpu": {
-        "code": "class _BaseBenchmark:\n    def track_user_cpu(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        return _nan(result.time_usage.user_seconds)\n\nclass RegularMeshSource:\n    def setup_cache(self, *_params):\n        # Cache stub for: RegularMeshSource\n        return _impl(self, *_params)",
-        "name": "benchmarks.RegularMeshSource.track_user_cpu",
-        "param_names": [
-            "(threads, mpi_procs)"
-        ],
-        "params": [
-            [
-                "(1, None)",
-                "(4, None)",
-                "(1, 4)",
-                "(2, 2)"
-            ]
-        ],
-        "setup_cache_key": "RegularMeshSource:1",
-        "timeout": 600,
-        "type": "track",
-        "unit": "seconds",
-        "version": "e2670e25c0eca93d74bb56883d3120d9d09462b94d2074f81aef5e2d99e92a0e"
     },
     "benchmarks.SimpleTokamakCSG.track_calc_rate_active": {
         "code": "class _OpenMCModelBenchmark:\n    def track_calc_rate_active(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        stats = result.timing_stats\n        return _nan(stats.calc_rate_active if stats else None)\n\nclass SimpleTokamakCSG:\n    def setup_cache(self, *_params):\n        # Cache stub for: SimpleTokamakCSG\n        return _impl(self, *_params)",
@@ -4585,26 +4547,6 @@
         "unit": "seconds",
         "version": "7540ab3cf9e20ec77206d5a8680132c2714b44d84507e5c227f00187c2bc3d7c"
     },
-    "benchmarks.SimpleTokamakCSG.track_user_cpu": {
-        "code": "class _BaseBenchmark:\n    def track_user_cpu(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        return _nan(result.time_usage.user_seconds)\n\nclass SimpleTokamakCSG:\n    def setup_cache(self, *_params):\n        # Cache stub for: SimpleTokamakCSG\n        return _impl(self, *_params)",
-        "name": "benchmarks.SimpleTokamakCSG.track_user_cpu",
-        "param_names": [
-            "(threads, mpi_procs)"
-        ],
-        "params": [
-            [
-                "(1, None)",
-                "(4, None)",
-                "(1, 4)",
-                "(2, 2)"
-            ]
-        ],
-        "setup_cache_key": "SimpleTokamakCSG:1",
-        "timeout": 600,
-        "type": "track",
-        "unit": "seconds",
-        "version": "89775836b2c27cf1e6bdeb50ec73cc5783d19ccfac7998eaa52d5d78216cfa1b"
-    },
     "benchmarks.SimpleTokamakDAGMC.track_calc_rate_active": {
         "code": "class _OpenMCModelBenchmark:\n    def track_calc_rate_active(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        stats = result.timing_stats\n        return _nan(stats.calc_rate_active if stats else None)\n\nclass SimpleTokamakDAGMC:\n    def setup_cache(self, *_params):\n        # Cache stub for: SimpleTokamakDAGMC\n        return _impl(self, *_params)",
         "name": "benchmarks.SimpleTokamakDAGMC.track_calc_rate_active",
@@ -4744,26 +4686,6 @@
         "type": "track",
         "unit": "seconds",
         "version": "5436465c053867a40e973f5f363d2277bac8607a14ac8e05bbeafe1cbe844887"
-    },
-    "benchmarks.SimpleTokamakDAGMC.track_user_cpu": {
-        "code": "class _BaseBenchmark:\n    def track_user_cpu(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        return _nan(result.time_usage.user_seconds)\n\nclass SimpleTokamakDAGMC:\n    def setup_cache(self, *_params):\n        # Cache stub for: SimpleTokamakDAGMC\n        return _impl(self, *_params)",
-        "name": "benchmarks.SimpleTokamakDAGMC.track_user_cpu",
-        "param_names": [
-            "(threads, mpi_procs)"
-        ],
-        "params": [
-            [
-                "(1, None)",
-                "(4, None)",
-                "(1, 4)",
-                "(2, 2)"
-            ]
-        ],
-        "setup_cache_key": "SimpleTokamakDAGMC:1",
-        "timeout": 600,
-        "type": "track",
-        "unit": "seconds",
-        "version": "4facb045feea2eeec36f48a010da41d49641d0447c487238545f7be0bd2f986c"
     },
     "benchmarks.SphericalMeshSource.track_calc_rate_active": {
         "code": "class _OpenMCModelBenchmark:\n    def track_calc_rate_active(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        stats = result.timing_stats\n        return _nan(stats.calc_rate_active if stats else None)\n\nclass SphericalMeshSource:\n    def setup_cache(self, *_params):\n        # Cache stub for: SphericalMeshSource\n        return _impl(self, *_params)",
@@ -4905,26 +4827,6 @@
         "unit": "seconds",
         "version": "dfa1029fa06bab796d6ddc5bbbe5345cdaa809cd58ba56d7daf35ae4112be393"
     },
-    "benchmarks.SphericalMeshSource.track_user_cpu": {
-        "code": "class _BaseBenchmark:\n    def track_user_cpu(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        return _nan(result.time_usage.user_seconds)\n\nclass SphericalMeshSource:\n    def setup_cache(self, *_params):\n        # Cache stub for: SphericalMeshSource\n        return _impl(self, *_params)",
-        "name": "benchmarks.SphericalMeshSource.track_user_cpu",
-        "param_names": [
-            "(threads, mpi_procs)"
-        ],
-        "params": [
-            [
-                "(1, None)",
-                "(4, None)",
-                "(1, 4)",
-                "(2, 2)"
-            ]
-        ],
-        "setup_cache_key": "SphericalMeshSource:1",
-        "timeout": 600,
-        "type": "track",
-        "unit": "seconds",
-        "version": "0ae39c3857e4d84571f5c332ce3dd572e079315c893ec33b7d29713c8dba051c"
-    },
     "benchmarks.ThickTargetBremsstrahlung.track_calc_rate_active": {
         "code": "class _OpenMCModelBenchmark:\n    def track_calc_rate_active(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        stats = result.timing_stats\n        return _nan(stats.calc_rate_active if stats else None)\n\nclass ThickTargetBremsstrahlung:\n    def setup_cache(self, *_params):\n        # Cache stub for: ThickTargetBremsstrahlung\n        return _impl(self, *_params)",
         "name": "benchmarks.ThickTargetBremsstrahlung.track_calc_rate_active",
@@ -5065,26 +4967,6 @@
         "unit": "seconds",
         "version": "cd161e3d8ba9492c4cd8c7e46ec468e461a6390c8751dd3b733f66f15baf0424"
     },
-    "benchmarks.ThickTargetBremsstrahlung.track_user_cpu": {
-        "code": "class _BaseBenchmark:\n    def track_user_cpu(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        return _nan(result.time_usage.user_seconds)\n\nclass ThickTargetBremsstrahlung:\n    def setup_cache(self, *_params):\n        # Cache stub for: ThickTargetBremsstrahlung\n        return _impl(self, *_params)",
-        "name": "benchmarks.ThickTargetBremsstrahlung.track_user_cpu",
-        "param_names": [
-            "(threads, mpi_procs)"
-        ],
-        "params": [
-            [
-                "(1, None)",
-                "(4, None)",
-                "(1, 4)",
-                "(2, 2)"
-            ]
-        ],
-        "setup_cache_key": "ThickTargetBremsstrahlung:1",
-        "timeout": 600,
-        "type": "track",
-        "unit": "seconds",
-        "version": "82e094cc7d7382f376b828c279660f0d7886e4c92295f9b5a6117fc3e25e9f34"
-    },
     "benchmarks.URR.track_calc_rate_active": {
         "code": "class _OpenMCModelBenchmark:\n    def track_calc_rate_active(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        stats = result.timing_stats\n        return _nan(stats.calc_rate_active if stats else None)\n\nclass URR:\n    def setup_cache(self, *_params):\n        # Cache stub for: URR\n        return _impl(self, *_params)",
         "name": "benchmarks.URR.track_calc_rate_active",
@@ -5224,26 +5106,6 @@
         "type": "track",
         "unit": "seconds",
         "version": "4762e160d7ca5d433aa088520ac385f89c0d15506821507c60b89feef4180057"
-    },
-    "benchmarks.URR.track_user_cpu": {
-        "code": "class _BaseBenchmark:\n    def track_user_cpu(\n        self,\n        results: Dict[Tuple[int, Optional[int]], OpenMCRunResult],\n        config: Tuple[int, Optional[int]],\n    ) -> float:\n        result = results[_param_key(*config)]\n        return _nan(result.time_usage.user_seconds)\n\nclass URR:\n    def setup_cache(self, *_params):\n        # Cache stub for: URR\n        return _impl(self, *_params)",
-        "name": "benchmarks.URR.track_user_cpu",
-        "param_names": [
-            "(threads, mpi_procs)"
-        ],
-        "params": [
-            [
-                "(1, None)",
-                "(4, None)",
-                "(1, 4)",
-                "(2, 2)"
-            ]
-        ],
-        "setup_cache_key": "URR:1",
-        "timeout": 600,
-        "type": "track",
-        "unit": "seconds",
-        "version": "5b6292b434e777574c2521011c6a1b697b3f62e7ce12bb002aa88ce45ea21e72"
     },
     "version": 2
 }
