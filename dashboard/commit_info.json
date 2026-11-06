@@ -284,6 +284,11 @@
   "pr": 4145,
   "title": "Add OpenAI config YAML file for reviewing-openmc-code skill (#4145)"
  },
+ "f11d08c14096d5dcb3e16fa6e460b192be47188f": {
+  "author": "realmisch",
+  "pr": 4098,
+  "title": "Replace linear search in ContinuousTabular with binary search (#4098)"
+ },
  "f1361ae3507b3e7e6fb996361d47a197180e3e42": {
   "author": "paulromano",
   "pr": 4146,
