@@ -1,0 +1,297 @@
+{
+ "037422557da504a09c003bf8dc034e6305a6c91f": {
+  "author": "yrrepy",
+  "pr": 4174,
+  "title": "Use int64 flat filter index in WeightWindows::update_weights (#4174)"
+ },
+ "073c170cd9b595e225251a9ec9cd49f97e710a28": {
+  "author": "jtramm",
+  "pr": 4121,
+  "title": "Random Ray Linear Source Gradient Limiter (#4121)"
+ },
+ "0888e2ff3da724a12a223c07e9eea1e22ef7cf96": {
+  "author": "paulromano",
+  "pr": 4085,
+  "title": "Replace git submodules with `find_package` + FetchContent (#4085)"
+ },
+ "09dd6eef34212901363892638afef308374c20bd": {
+  "author": "kvnloo",
+  "pr": 4151,
+  "title": "test: share weight-window data paths (#4151)"
+ },
+ "0c2b4848ae874efd96a942435e8bc1532931885d": {
+  "author": "nuclearkevin",
+  "pr": 4155,
+  "title": "Add a length multiplier option for XDG meshes. (#4155)"
+ },
+ "0f4190245971ce02d43243eae8e08d4d823e534d": {
+  "author": "yrrepy",
+  "pr": 4210,
+  "title": "Fix DA for (n,p3He) and (n,d3He) entries in DADZ (#4210)"
+ },
+ "0fbe5f16bd5d9bd346fb0a930263341f12044de6": {
+  "author": "JROChub",
+  "pr": 4116,
+  "title": "Build source regression plugins as CMake modules (#4116)"
+ },
+ "141cd3064ee3fcd1a845c49de3a53ed1397e2993": {
+  "author": "paulromano",
+  "pr": 4129,
+  "title": "Distinguish atomic and nuclear masses (#4129)"
+ },
+ "1d75981dbf3fd78962e516c12b550d034f2e7daa": {
+  "author": "paulromano",
+  "pr": 4134,
+  "title": "Add PNNL material composition library (#4134)"
+ },
+ "210df976febe6f0caf850e383a54ac4dcada21cd": {
+  "author": "kvnloo",
+  "pr": 4152,
+  "title": "test: reuse canonical unstructured mesh assets (#4152)"
+ },
+ "21d0b2f85d4cbf0a3c79e89a79eb3b566ffea784": {
+  "author": "nuclearkevin",
+  "pr": 4143,
+  "title": "Set format install to fix git repo builds (#4143)"
+ },
+ "2d02d0b9b16584bbcfe3cb4f0466f8c5e36a8685": {
+  "author": "kawacukennedy",
+  "pr": 4074,
+  "title": "Fix inconsistent out-of-range evaluation between Tabulated1D scalar and array paths (#4074)"
+ },
+ "31f56dcbf280741d69e4d4d1d36e79216b3ce2b9": {
+  "author": "agourakis82",
+  "pr": 4169,
+  "title": "Fix temperature interpolation at the high endpoint (#4169)"
+ },
+ "33eaa7cf200c57045f562b1042d875bd5ec263d9": {
+  "author": "amandalund",
+  "pr": 4108,
+  "title": "Automatically trigger performance benchmarks on push (#4108)"
+ },
+ "34ceb3dabfcf9f0059f86d80d9f8e66dc8df342e": {
+  "author": "paulromano",
+  "pr": 4118,
+  "title": "Handle omitted optional HDF5 strings in Python readers (#4118)"
+ },
+ "3a36c03c727771a0f56ce4ad33e21eca572e8b2e": {
+  "author": "GuySten",
+  "pr": 4184,
+  "title": "Fix Model.run returning a stale statepoint on coarse timestamps (#4184)"
+ },
+ "3aec0edef083373cf93efcd5e0958dba774163f1": {
+  "author": "GuySten",
+  "pr": 4190,
+  "title": "Add implied a_0 to File 6 two-body Legendre distributions (#4190)"
+ },
+ "3cded0fbe0d6a066c17e74dd818bd19dbbcb10c3": {
+  "author": "pshriwise",
+  "pr": 3889,
+  "title": "Add XDG support for unstructured mesh tallies (#3889)"
+ },
+ "438b05db776c9fe47b5c6461ab37ac795c844974": {
+  "author": "JROChub",
+  "pr": 4112,
+  "title": "Fix nonfinite comparisons in tolerant regression harness (#4112)"
+ },
+ "4466aecdd1230f2a2040ff455ea226e044e82d78": {
+  "author": "dylanpulver",
+  "pr": 4087,
+  "title": "Compute bounding boxes for general planes and tori in C++ (#4087)"
+ },
+ "46c4c607518cd4aa4fba6d2db08cf5146b56e5e3": {
+  "author": "kavyawadhwa134",
+  "pr": 4193,
+  "title": "Remove osx-64 conda workaround for Apple silicon from install docs (#4193)"
+ },
+ "4c0448d333d19e8bc0ee2ca256e64c85dd84437c": {
+  "author": "Arthur031221",
+  "pr": 4154,
+  "title": "Fix input_path resolving empty filenames to cwd (#4154)"
+ },
+ "4e699689a83fd3c6b3635dff73a7177d54659954": {
+  "author": "paulromano",
+  "pr": 4171,
+  "title": "Restrict pull request merging to Technical Committee members (#4171)"
+ },
+ "509430deb201f0c9028eaf8739d52da5e8754597": {
+  "author": "shimwell",
+  "pr": 4189,
+  "title": "Fix source plotting scale bug (#4189)"
+ },
+ "5260b9a0fc51f3f312024c425a5c1c227f8ba555": {
+  "author": "paulromano",
+  "pr": 4057,
+  "title": "Export large weight window files through openmc.lib without XML serialization (#4057)"
+ },
+ "55bb333d6160033eb1a535c798087c22356f4304": {
+  "author": "jtramm",
+  "pr": 4110,
+  "title": "Adaptive Volume Estimators (#4110)"
+ },
+ "5fd7e3948744a0decd31fe1f33cecacd2c91f130": {
+  "author": "GuySten",
+  "pr": 4122,
+  "title": "Reset settings leaked across openmc_finalize() (#4122)"
+ },
+ "68657f2292b6db604a7cf4fe6175ef49c1309687": {
+  "author": "yrrepy",
+  "pr": 4173,
+  "title": "Close tally group for internal tallies on statepoint load (#4173)"
+ },
+ "692e5389483c3f3faeedff2681922fdb7e0f5edc": {
+  "author": "kvnloo",
+  "pr": 4150,
+  "title": "test: share DAGMC unit-test geometry fixtures (#4150)"
+ },
+ "7521471d6946b7afde092cb41b46feb79db8b6c6": {
+  "author": "GuySten",
+  "pr": 4114,
+  "title": "Fix zero k-effective in random ray runs with generations_per_batch > 1 (#4114)"
+ },
+ "79d395c31842c4370c973ff76b851ed4c1c148d6": {
+  "author": "barlowa124",
+  "pr": 4188,
+  "title": "Convert path_input to str in _process_CLI_arguments (#4188)"
+ },
+ "7ca042522e1f100e4c0068f03595de56203a8e45": {
+  "author": "jtramm",
+  "pr": 4111,
+  "title": "Naive Flux Linear Source Consistency Fix (#4111)"
+ },
+ "7cb87e78e622e5b940bcb7fd5b0016ad88af029a": {
+  "author": "yrrepy",
+  "pr": 4175,
+  "title": "Fix variance tally trigger to use its own uncertainty ratio (#4175)"
+ },
+ "8564c64884bc060101da67c9e172190562084f69": {
+  "author": "yrrepy",
+  "pr": 4170,
+  "title": "Follow-up to Clip negative atom densities: Cleanup of redundant warnings and clips (#4170)"
+ },
+ "8b121155c136943422d9eb2a5498d929d05c6e8b": {
+  "author": "GuySten",
+  "pr": 4130,
+  "title": "Report unresolvable nuclide names instead of terminating (#4130)"
+ },
+ "911a3e759a132c3e5628c7461c086ca7b9b506b3": {
+  "author": "GuySten",
+  "pr": 4148,
+  "title": "Assign the delayed yield to every delayed group (#4148)"
+ },
+ "9315d8301c0c54f9b25ab8a14264323f2e7f5aa6": {
+  "author": "JROChub",
+  "pr": 4201,
+  "title": "Find only the C++ OpenMP component for projects that link against OpenMC (#4201)"
+ },
+ "94f55ea8657b673d612a5f0ec1af2f0d3b240023": {
+  "author": "agourakis82",
+  "pr": 4192,
+  "title": "Fix double normalization in random ray VTK flux (#4192)"
+ },
+ "98bd86f5c4e660106317cf1ae4d4aaf247fc2bec": {
+  "author": "kavyawadhwa134",
+  "pr": 4196,
+  "title": "Recognize libc++ uncaught exception messages when OpenMC aborts (#4196)"
+ },
+ "9c40ef985bf8db5a69d59c16911cc7f32487ec87": {
+  "author": "yrrepy",
+  "pr": 4115,
+  "title": "Fix header check JEFF40 TSL K V W (#4115)"
+ },
+ "a5bc348a6ca2d2de49c8325dd3cc220e9fc55f83": {
+  "author": "paulromano",
+  "pr": 4172,
+  "title": "Clarify AI disclosure and security reporting policies (#4172)"
+ },
+ "aa4afc41eb5421fb77351da863bca150be106a5e": {
+  "author": "GuySten",
+  "pr": 4157,
+  "title": "Annihilate positrons below the positron energy cutoff (#4157)"
+ },
+ "afa7a14ac5cb8630f642a77229ca64dc3eaeef81": {
+  "author": "paulromano",
+  "pr": 4142,
+  "title": "Enable unused variable warnings (#4142)"
+ },
+ "b0d028500c2b354a26efa5ec4ae349becc4a947d": {
+  "author": "GuySten",
+  "pr": 4127,
+  "title": "Avoid NaN standard deviation from roundoff in Tally.std_dev (#4127)"
+ },
+ "b1bb3ec5f11f2739610ec173416d537dc23a582b": {
+  "author": "jtramm",
+  "pr": 4204,
+  "title": "New Random Ray VTK Plot Testing Strategy (#4204)"
+ },
+ "ba4b30af320e6fc2d6d6402e88331e760a9c04df": {
+  "author": "GuySten",
+  "pr": 4125,
+  "title": "Broadcast tally results in chunks (#4125)"
+ },
+ "bce5d92d9a04dbc3588f5d4f18730bd2f5ba1fa3": {
+  "author": "kavyawadhwa134",
+  "pr": 4197,
+  "title": "Find HDF5 in OpenMCConfig.cmake for projects that link against OpenMC (#4197)"
+ },
+ "c423a769ffcb87275c1e651e37fa1144e39fccb6": {
+  "author": "GuySten",
+  "pr": 4123,
+  "title": "Deprecate surf_source_read in favor of a file source (#4123)"
+ },
+ "c6301133b5c5fe02c71048a223cacb3376851d82": {
+  "author": "yrrepy",
+  "pr": 4176,
+  "title": "Build fine energy group structures (#4176)"
+ },
+ "c66d748caa0e55d128665c06a2c35946074ce4fe": {
+  "author": "Suark94",
+  "pr": 4026,
+  "title": "Add domain decomposition for random ray solver (#4026)"
+ },
+ "d7d3284a1b13d7cae020e0d8fea9f1e60d91b18b": {
+  "author": "viktormai",
+  "pr": 4012,
+  "title": "Geometry debug function (#4012)"
+ },
+ "d86b79e9fbe5ec21603fb66d6f9617bf9711f150": {
+  "author": "GuySten",
+  "pr": 4099,
+  "title": "Simplify `get_energy_index` and use it in place of duplicated lookup logic (#4099)"
+ },
+ "e13e94001590522e679c50f2e8a5e4d5b4d14704": {
+  "author": "GuySten",
+  "pr": 4083,
+  "title": "Make keff search control work with depletion. (#4083)"
+ },
+ "e43e16583f56318d5946d666a703ef7ecea09137": {
+  "author": "nuclearkevin",
+  "pr": 4211,
+  "title": "Use new XDG API to get volume element faces for surface bins (#4211)"
+ },
+ "ec3bc73070a624286034e7afd068195d31e55ad7": {
+  "author": "GuySten",
+  "pr": 4159,
+  "title": "Avoid ldexp call when converting random numbers to double (#4159)"
+ },
+ "ecc1f1183d3914148ca762ce467ac19e69d7b123": {
+  "author": "paulromano",
+  "pr": 4207,
+  "title": "Improve stellarator angular sampling with radius-dependent cell bounds (#4207)"
+ },
+ "ef49d52c2afb43f4064d1407c1477529bb2d4eb0": {
+  "author": "paulromano",
+  "pr": 4145,
+  "title": "Add OpenAI config YAML file for reviewing-openmc-code skill (#4145)"
+ },
+ "f1361ae3507b3e7e6fb996361d47a197180e3e42": {
+  "author": "paulromano",
+  "pr": 4146,
+  "title": "Preserve ENDF target excitation and reaction metadata in HDF5 (#4146)"
+ },
+ "f990fe5e1f9843516f3f3f29bea7b3ffc9eda205": {
+  "author": "eepeterson",
+  "pr": 4187,
+  "title": "Add native stellarator plasma source sampling (#4187)"
+ }
+}
