@@ -184,6 +184,11 @@
   "pr": 4201,
   "title": "Find only the C++ OpenMP component for projects that link against OpenMC (#4201)"
  },
+ "93b147fa49d15e13c9d3cef7a7b0430a9b2ab86a": {
+  "author": "GuySten",
+  "pr": 4158,
+  "title": "Skip atomic relaxation emissions below the photon energy cutoff (#4158)"
+ },
  "94f55ea8657b673d612a5f0ec1af2f0d3b240023": {
   "author": "agourakis82",
   "pr": 4192,
