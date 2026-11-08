@@ -129,6 +129,11 @@
   "pr": 4057,
   "title": "Export large weight window files through openmc.lib without XML serialization (#4057)"
  },
+ "5520925e2493e2f25689685d296e75e8565db39a": {
+  "author": "qufu-io",
+  "pr": 4218,
+  "title": "Document universe fill in summary file format (#4218)"
+ },
  "55bb333d6160033eb1a535c798087c22356f4304": {
   "author": "jtramm",
   "pr": 4110,
