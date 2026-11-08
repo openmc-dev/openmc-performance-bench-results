@@ -44,6 +44,11 @@
   "pr": 4134,
   "title": "Add PNNL material composition library (#4134)"
  },
+ "1fe3fe49b8d3b1a20a270a0e2e3e65d0f1eeecd4": {
+  "author": "davrens101",
+  "pr": 4221,
+  "title": "Fix error message in EnergyFunctionFilter for cubic interpolation (#4221)"
+ },
  "210df976febe6f0caf850e383a54ac4dcada21cd": {
   "author": "kvnloo",
   "pr": 4152,
