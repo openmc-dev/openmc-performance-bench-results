@@ -239,6 +239,11 @@
   "pr": 4204,
   "title": "New Random Ray VTK Plot Testing Strategy (#4204)"
  },
+ "b4c1d95d42b9217402e40dd7350cb89751223dcf": {
+  "author": "davrens101",
+  "pr": 4219,
+  "title": "Fix default origin handling in SphericalIndependent.from_xml_element (#4219)"
+ },
  "ba4b30af320e6fc2d6d6402e88331e760a9c04df": {
   "author": "GuySten",
   "pr": 4125,
