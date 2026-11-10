@@ -184,6 +184,11 @@
   "pr": 4130,
   "title": "Report unresolvable nuclide names instead of terminating (#4130)"
  },
+ "8f79d9d02483c90e4134f03a9df4b75ce6b062bf": {
+  "author": "jtramm",
+  "pr": 4216,
+  "title": "Prevent Accidental Use of Forward Sources in the Adjoint Solve of FW-CADIS (#4216)"
+ },
  "911a3e759a132c3e5628c7461c086ca7b9b506b3": {
   "author": "GuySten",
   "pr": 4148,
