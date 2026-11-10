@@ -269,6 +269,11 @@
   "pr": 4026,
   "title": "Add domain decomposition for random ray solver (#4026)"
  },
+ "cd35980927b7bed4035c37f5f859b66e0bf6f66b": {
+  "author": "qufu-io",
+  "pr": 4224,
+  "title": "Fix event particle cleanup between library runs (#4224)"
+ },
  "d7d3284a1b13d7cae020e0d8fea9f1e60d91b18b": {
   "author": "viktormai",
   "pr": 4012,
