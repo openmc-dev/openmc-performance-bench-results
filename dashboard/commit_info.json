@@ -1,4 +1,9 @@
 {
+ "013cfbb999ed42da13ec10f1948198c5b9db0765": {
+  "author": "paulromano",
+  "pr": 4073,
+  "title": "Add photon multigroup cross section generation (#4073)"
+ },
  "037422557da504a09c003bf8dc034e6305a6c91f": {
   "author": "yrrepy",
   "pr": 4174,
