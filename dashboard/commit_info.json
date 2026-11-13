@@ -149,6 +149,11 @@
   "pr": 4122,
   "title": "Reset settings leaked across openmc_finalize() (#4122)"
  },
+ "656f9bcca86734147e1a377ed3b36b9a98a0b636": {
+  "author": "Jarvis2001",
+  "pr": 3877,
+  "title": "Add VTKHDF output support for all structured mesh types (#3877)"
+ },
  "68657f2292b6db604a7cf4fe6175ef49c1309687": {
   "author": "yrrepy",
   "pr": 4173,
