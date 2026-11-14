@@ -184,6 +184,11 @@
   "pr": 4175,
   "title": "Fix variance tally trigger to use its own uncertainty ratio (#4175)"
  },
+ "838a0d573093deeca1d6af7269f3bc80f2160b7e": {
+  "author": "kongshifer",
+  "pr": 4206,
+  "title": "Fix multigroup scattering weights when multiplicity depends on outgoing group (#4206)"
+ },
  "8564c64884bc060101da67c9e172190562084f69": {
   "author": "yrrepy",
   "pr": 4170,
