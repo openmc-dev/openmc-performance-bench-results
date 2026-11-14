@@ -289,6 +289,11 @@
   "pr": 4026,
   "title": "Add domain decomposition for random ray solver (#4026)"
  },
+ "c7369d391eaff095dc409f74a8e7f2c7040fbfa5": {
+  "author": "JoffreyDorville",
+  "pr": 3734,
+  "title": "Specify temperature from a field (structured mesh only) (#3734)"
+ },
  "cd35980927b7bed4035c37f5f859b66e0bf6f66b": {
   "author": "qufu-io",
   "pr": 4224,
