@@ -39,6 +39,11 @@
   "pr": 4116,
   "title": "Build source regression plugins as CMake modules (#4116)"
  },
+ "113690bedf79478bec06ab90d982ea37e75fcdc7": {
+  "author": "paulromano",
+  "pr": 4235,
+  "title": "Fix multigroup plotting with model-specific cross sections (#4235)"
+ },
  "141cd3064ee3fcd1a845c49de3a53ed1397e2993": {
   "author": "paulromano",
   "pr": 4129,
