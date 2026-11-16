@@ -249,6 +249,11 @@
   "pr": 4157,
   "title": "Annihilate positrons below the positron energy cutoff (#4157)"
  },
+ "ab6dc442d6d64e9cc2c40fc5400f87f3a86e63dd": {
+  "author": "paulromano",
+  "pr": 4233,
+  "title": "Fix native stdout restoration after quiet library calls (#4233)"
+ },
  "afa7a14ac5cb8630f642a77229ca64dc3eaeef81": {
   "author": "paulromano",
   "pr": 4142,
