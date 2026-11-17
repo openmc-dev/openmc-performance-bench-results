@@ -329,6 +329,11 @@
   "pr": 4211,
   "title": "Use new XDG API to get volume element faces for surface bins (#4211)"
  },
+ "e4febe929b210865af51d6bcf9beded7956af8ac": {
+  "author": "paulromano",
+  "pr": 4237,
+  "title": "Clarify error when depletion reaction rates were not saved (#4237)"
+ },
  "e9aa5eff458547e47af8413c2390ff56a5fc8ffc": {
   "author": "davrens101",
   "pr": 4220,
