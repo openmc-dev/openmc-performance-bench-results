@@ -4,6 +4,11 @@
   "pr": 4073,
   "title": "Add photon multigroup cross section generation (#4073)"
  },
+ "020cd4069c876982f091309fd6a379398f862fb2": {
+  "author": "rpinho",
+  "pr": 4242,
+  "title": "Scale shared mesh sources once when setting total strength (#4242)"
+ },
  "037422557da504a09c003bf8dc034e6305a6c91f": {
   "author": "yrrepy",
   "pr": 4174,
