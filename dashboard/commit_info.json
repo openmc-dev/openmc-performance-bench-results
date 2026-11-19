@@ -124,6 +124,11 @@
   "pr": 4193,
   "title": "Remove osx-64 conda workaround for Apple silicon from install docs (#4193)"
  },
+ "4743daa7f8966096aa866d3742074452225915d9": {
+  "author": "rpinho",
+  "pr": 4241,
+  "title": "Read matrix rotations from mesh filters through the C API (#4241)"
+ },
  "4c0448d333d19e8bc0ee2ca256e64c85dd84437c": {
   "author": "Arthur031221",
   "pr": 4154,
